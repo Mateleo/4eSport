@@ -4,9 +4,9 @@ import Header from "../components/Header.vue";
 
 <template>
   <Header></Header>
-  <main class="mt-[100px]">
-    <div class="w-[90%] m-auto">
-      <main class="flex m-auto mt-10">
+  <main class="mt-[150px]">
+    <div class="w-[90%] md:w-[80%] m-auto">
+      <main class="flex m-auto mt-10 justify-between">
         <div class="w-1/2 mr-6">
           <h1 class="text-3xl font-semibold">L'association 100% en ligne.</h1>
           <h1 class="text-3xl font-semibold text-[#15c584]">Pour tous, par tous.</h1>
