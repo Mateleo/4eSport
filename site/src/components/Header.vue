@@ -4,7 +4,9 @@
     <header
       class="w-full border-b-[1px] border-white/20 backdrop-blur-[2px] text-white bg-[#1C1C1C]/70"
     >
-      <div class="md:w-[80%] m-auto w-full flex justify-between items-center px-4 py-3 md:px-0">
+      <div
+        class="md:w-[80%] m-auto w-full flex justify-between items-center px-4 py-3 md:px-0"
+      >
         <div class="flex items-center">
           <div>
             <h1 class="text-2xl mr-3">4eSport</h1>
@@ -28,11 +30,20 @@
             >
           </nav>
         </div>
-        <div>
-          <button>Github</button>
+        <div class="flex items-center">
+          <a
+            class="flex items-center px-2 py-1 rounded-lg border-[1px] border-white/5 bg-white/[0.03] hover:bg-white/10 mr-2"
+            href="https://github.com/Mateleo/4eSport"
+            target="_blank"
+          >
+            <div class="h-[16px] aspect-square mr-1">
+              <img src="../assets/GitHub-Mark-Light-32px.png" />
+            </div>
+            <p class="text-sm">GitHub</p>
+          </a>
           <router-link
             to="/mypanel"
-            class="md:ml-2 ml-1 link-underline hover:text-[#15c584] transition-all ease-in-out delay-75"
+            class="px-2 py-1 rounded-lg border-[1px] border-white/5 bg-[#15c584]/80 hover:bg-[#15c584] text-sm font-semibold"
             >Login</router-link
           >
         </div>
