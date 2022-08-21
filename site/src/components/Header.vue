@@ -5,13 +5,13 @@
       class="w-full border-b-[1px] border-white/20 backdrop-blur-[2px] text-white bg-[#1C1C1C]/70"
     >
       <div
-        class="md:w-[80%] m-auto w-full flex justify-between items-center px-4 py-3 md:px-0"
+        class="md:w-[90%] lg:w-[80%] m-auto w-full flex justify-between items-center px-4 py-3 md:px-0"
       >
-        <div class="flex items-center">
+        <div class="flex items-center w-full">
           <div>
-            <h1 class="text-2xl mr-3">4eSport</h1>
+            <h1 class="text-2xl mr-3 hidden sm:block">4eSport</h1>
           </div>
-          <nav>
+          <nav class="text-sm sm:text-base flex justify-between w-full sm:w-auto">
             <router-link
               to="/create"
               class="md:mr-2 mr-1 link-underline hover:text-[#15c584] transition-all ease-in-out delay-75"
@@ -30,7 +30,7 @@
             >
           </nav>
         </div>
-        <div class="flex items-center">
+        <div class="sm:flex sm:items-center hidden">
           <a
             class="flex items-center px-2 py-1 rounded-lg border-[1px] border-white/5 bg-white/[0.03] hover:bg-white/10 mr-2"
             href="https://github.com/Mateleo/4eSport"
