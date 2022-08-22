@@ -9,15 +9,15 @@ let display = ref(true);
   <Header></Header>
   <main class="w-[95%] md:w-[90%] lg:w-[80%] m-auto sm:mt-[150px] mt-[70px]">
     <div class="grid md:grid-cols-2 gap-6">
-      <div class="flex text-center p-2 rounded-xl bg-white/20 max-w-[500px] m-auto">
+      <div class="flex text-center p-2 rounded-xl bg-white/20 max-w-[500px] m-auto aspect-[5/2.2]">
         <div class="w-1/3" @click="display=!display">
           <img
             v-if="display"
             src="../assets/Maillot_ORIGIN_fonce.png"
             alt=""
-            class="scale-125 mt-1"
+            class="scale-[140%] mt-3"
           />
-          <img v-else src="../assets/Maillot_ORIGIN_MODELISATION_3D.png" class="scale-125 mt-1" alt="" />
+          <img v-else src="../assets/Maillot_ORIGIN_MODELISATION_3D.png" class="scale-[140%] mt-2" alt="" />
         </div>
         <div class="flex flex-col w-2/3">
           <h1 class="text-2xl">Maillot 4eSport</h1>
@@ -32,9 +32,9 @@ let display = ref(true);
           </div>
         </div>
       </div>
-      <div class="flex text-center p-2 rounded-xl bg-white/20 max-w-[500px] m-auto">
+      <div class="flex text-center p-2 rounded-xl bg-white/20 max-w-[500px] m-auto aspect-[5/2.2]">
         <div class="w-1/3">
-          <img src="../assets/unknown.png" alt="" class="-mb-4 -mt-3" />
+          <img src="../assets/unknown.png" alt="" class="-mb-4 -mt-1 scale-105" />
           <!-- <img src="../assets/Maillot_ORIGIN_MODELISATION_3D.png" alt="" /> -->
         </div>
         <div class="flex flex-col w-2/3">
