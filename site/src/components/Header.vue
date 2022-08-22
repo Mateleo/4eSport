@@ -19,12 +19,12 @@
               Evènements</router-link
             >
             <router-link
-              to="/support"
+              to="/"
               class="md:mx-2 mx-1 link-underline hover:text-[#15c584] transition-all ease-in-out delay-75"
               >Projets</router-link
             >
             <router-link
-              to="/mypanel"
+              to="/"
               class="md:ml-2 mx-1 link-underline hover:text-[#15c584] transition-all ease-in-out delay-75"
               >Palmarès</router-link
             >
