@@ -53,7 +53,7 @@ let display = ref(true);
         </div>
       </div>
     </div>
-    <h1 class="text-2xl font-semibold mt-10">Information tarrifaire</h1>
+    <h1 class="text-2xl font-semibold mt-10">Information tarifaire</h1>
     <p class="text-white/70 text-sm">Maillot : Remise de 15% (5€) pour nos membres.</p>
     <p class="text-white/70 text-sm">Pull : Remise de 50% (20€) pour nos membres, dans la limite des stocks disponibles.</p>
   </main>
