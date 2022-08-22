@@ -9,7 +9,7 @@
       >
         <div class="flex items-center w-full">
           <div>
-            <h1 class="text-2xl mr-3 hidden sm:block">4eSport</h1>
+            <router-link to="/" class="text-2xl mr-3 hidden sm:block">4eSport</router-link>
           </div>
           <nav class="text-sm sm:text-base flex justify-between w-full sm:w-auto">
             <router-link
@@ -25,8 +25,13 @@
             >
             <router-link
               to="/mypanel"
-              class="md:ml-2 ml-1 link-underline hover:text-[#15c584] transition-all ease-in-out delay-75"
+              class="md:ml-2 mx-1 link-underline hover:text-[#15c584] transition-all ease-in-out delay-75"
               >Palmarès</router-link
+            >
+            <router-link
+              to="/boutique"
+              class="md:ml-2 ml-1 link-underline hover:text-[#15c584] transition-all ease-in-out delay-75"
+              >Boutique</router-link
             >
           </nav>
         </div>
