@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Header from "../components/Header.vue";
+import Footer from "../components/Footer.vue";
 </script>
 
 <template>
@@ -40,7 +41,7 @@ import Header from "../components/Header.vue";
       </main>
       <div>
         <h2 class="font-semibold text-2xl mt-10 mb-5">Nos forces</h2>
-        <div class="sm:flex sm:justify-between grid grid-cols-2 gap-2">
+        <div class="sm:flex sm:justify-between grid grid-cols-2 gap-2 gap-y-6">
           <div class="flex flex-col sm:mr-8">
             <h3 class="font-semibold">Communauté</h3>
             <p class="text-white/70 text-sm mt-2">
@@ -66,8 +67,9 @@ import Header from "../components/Header.vue";
             </p>
           </div>
         </div>
-        <div class="h-[1000px]"></div>
+        <div class="h-[200px]"></div>
       </div>
     </div>
   </main>
+  <Footer></Footer>
 </template>
