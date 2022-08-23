@@ -275,7 +275,7 @@ let display = ref(true);
           </td>
         </tr>
         <tr>
-          <th>Prêt de matériels</th>
+          <th>Prêts de matériel</th>
           <td>
             <svg
               class="text-gray-400 h-5 w-5"
