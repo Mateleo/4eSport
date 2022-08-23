@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <footer class="border-t-[1px] border-white/20 py-4">
+  <footer class="border-t-[1px] border-white/20 py-4 mt-20">
     <div class="flex justify-between w-[95%] md:w-[90%] lg:w-[80%] m-auto">
       <div class="flex">
         <a

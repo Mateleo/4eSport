@@ -9,7 +9,7 @@
       >
         <div class="flex items-center w-full">
           <div>
-            <router-link to="/" class="text-2xl mr-3 hidden sm:block">4eSport</router-link>
+            <router-link to="/" class="text-2xl md:text-3xl mr-3 hidden sm:block">4eSport</router-link>
           </div>
           <nav class="text-sm sm:text-base flex justify-between w-full sm:w-auto">
             <router-link

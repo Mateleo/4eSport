@@ -11,19 +11,21 @@ import Footer from "../components/Footer.vue";
       <main class="flex sm:flex-row flex-col m-auto mt-10 justify-between">
         <div class="w-full flex flex-wrap flex-col sm:h-[400px]">
           <div class="sm:w-1/2 sm:pr-5">
-            <h1 class="text-2xl md:text-3xl font-semibold">
+            <h1 class="text-2xl md:text-3xl lg:text-4xl font-semibold">
               L'association 100% en ligne.
             </h1>
-            <h1 class="text-2xl md:text-3xl font-semibold text-[#15c584]">
+            <h1 class="text-2xl md:text-3xl lg:text-4xl font-semibold text-[#15c584]">
               Pour tous, par tous.
             </h1>
-            <p class="mt-5 text-base md:text-lg text-white/70 text-justify md:text-left">
+            <p class="mt-5 text-base md:text-lg lg:text-xl text-white/70 text-justify md:text-left">
               4eSport est l’association de jeux vidéo de l'Efrei. Elle regroupe en son
               sein une multitude de pôles regroupant l’ensemble des jeux esportifs du
               moment. Elle est ouverte à tous sans condition.
             </p>
           </div>
-          <div class="items-center sm:w-1/2 flex sm:pl-5 mt-5 sm:mt-0 sm:order-1 max-w-[600px]">
+          <div
+            class="items-center sm:w-1/2 flex sm:pl-5 mt-5 sm:mt-0 sm:order-1 max-w-[600px]"
+          >
             <div>
               <img src="../assets/ESL.jpg" alt="" />
             </div>
@@ -40,35 +42,86 @@ import Footer from "../components/Footer.vue";
         </div>
       </main>
       <div>
-        <h2 class="font-semibold text-2xl mt-10 mb-5">Nos forces</h2>
-        <div class="sm:flex sm:justify-between grid grid-cols-2 gap-2 gap-y-6">
+        <h2 class="font-semibold text-3xl mt-10 mb-5">Nos forces</h2>
+        <div class="sm:flex sm:justify-between grid grid-cols-2 gap-2 md:gap-6 lg:gap-20 gap-y-6">
           <div class="flex flex-col sm:mr-8">
-            <h3 class="font-semibold">Communauté</h3>
-            <p class="text-white/70 text-sm mt-2">
+            <h3 class="font-semibold text-xl">Communauté</h3>
+            <p class="text-white/70 mt-2">
               4eSport possède une commaunuté inégalée.
             </p>
           </div>
           <div class="flex flex-col sm:mr-8">
-            <h3 class="font-semibold">Online</h3>
-            <p class="text-white/70 text-sm mt-2">
+            <h3 class="font-semibold text-xl">Online</h3>
+            <p class="text-white/70 mt-2">
               De part sa nature, l'association est ouverte 24h/24h, 7j/7.
             </p>
           </div>
           <div class="flex flex-col sm:mr-8">
-            <h3 class="font-semibold">Projets</h3>
-            <p class="text-white/70 text-sm mt-2">
+            <h3 class="font-semibold text-xl">Projets</h3>
+            <p class="text-white/70 mt-2">
               4eSport c'est également des projets tech au service de ses membres.
             </p>
           </div>
           <div class="flex flex-col">
-            <h3 class="font-semibold">Compétitions</h3>
-            <p class="text-white/70 text-sm mt-2">
+            <h3 class="font-semibold text-xl">Compétitions</h3>
+            <p class="text-white/70 mt-2">
               L'association permet à ses joueurs de participer à de grands tournois.
             </p>
           </div>
         </div>
-        <div class="h-[200px]"></div>
       </div>
+      <article class="mt-20">
+        <div class="flex flex-col text-center">
+          <h1 class="text-lg md:text-3xl font-semibold">Une association en 5 pôles</h1>
+          <h2 class="text-base md:text-lg font-semibold text-[#15c584]">
+            Sans condition de niveau
+          </h2>
+        </div>
+        <div>
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-10 mt-10">
+            <div class="aspect-square">
+              <img
+                src="../assets/lol.jpg"
+                class="rounded-xl shadow-md shadow-black/50"
+                alt=""
+              />
+              <h3 class="text-center text-white/60 mt-3">League of Legends</h3>
+            </div>
+            <div class="aspect-square">
+              <img
+                src="../assets/lol.jpg"
+                class="rounded-xl shadow-md shadow-black/50"
+                alt=""
+              />
+              <h3 class="text-center text-white/60 mt-3">Rainbow Six</h3>
+            </div>
+            <div class="aspect-square">
+              <img
+                src="../assets/lol.jpg"
+                class="rounded-xl shadow-md shadow-black/50"
+                alt=""
+              />
+              <h3 class="text-center text-white/60 mt-3">CSGO</h3>
+            </div>
+            <div class="aspect-square">
+              <img
+                src="../assets/lol.jpg"
+                class="rounded-xl shadow-md shadow-black/50"
+                alt=""
+              />
+              <h3 class="text-center text-white/60 mt-3">Overwatch</h3>
+            </div>
+            <div class="aspect-square">
+              <img
+                src="../assets/lol.jpg"
+                class="rounded-xl shadow-md shadow-black/50"
+                alt=""
+              />
+              <h3 class="text-center text-white/60 mt-3">Rocket League</h3>
+            </div>
+          </div>
+        </div>
+      </article>
     </div>
   </main>
   <Footer></Footer>
