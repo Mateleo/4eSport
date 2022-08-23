@@ -34,13 +34,31 @@ let display = ref(true);
           <td>
             <div class="flex flex-col">
             <h3 class="font-semibold  text-2xl md:text-4xl text-center">0€</h3>
-            <p class="text-white/60 text-xs md:text-sm">Pour tous les étudiants de l'EFREI.</p>
+            <p class="text-white/60 text-xs md:text-sm text-center">Pour tous les étudiants de l'EFREI.</p>
+            <div class="w-full flex justify-center mt-4">
+            <a
+              class="flex px-2 py-1 rounded-lg border-[1px] border-[white]/5 bg-[#2c15c5]/70 hover:bg-[#2c15c5] shadow-sm shadow-black/40 truncate"
+              href="https://discord.gg/qEHEMyadrr"
+              target="_blank"
+            >
+              <p class="md:text-lg font-semibold text-xs">Nous rejoindre</p>
+            </a>
+          </div>
             </div>
           </td>
           <td >
             <div class="py-4 flex flex-col">
             <h3 class="font-semibold text-2xl md:text-4xl text-center">10€</h3>
-            <p class="text-white/60 text-xs md:text-sm">Pour devenir un membre de 4eSport, un vrai.</p>
+            <p class="text-white/60 text-xs md:text-sm text-center">Pour devenir un membre de 4eSport, un vrai.</p>
+                          <div class="w-full flex justify-center mt-4">
+            <a
+              class="flex px-2 py-1 rounded-lg border-[1px] border-[white]/5 bg-[#8215c5]/70 hover:bg-[#8215c5] shadow-sm shadow-black/40 truncate"
+              href="https://discord.gg/qEHEMyadrr"
+              target="_blank"
+            >
+              <p class="md:text-lg font-semibold text-xs">Cotiser</p>
+            </a>
+          </div>
             </div>
           </td>
         </tr>
@@ -322,7 +340,6 @@ let display = ref(true);
         </tr>
       </tbody>
     </table>
-    <div class="h-[1000px]"></div>
   </main>
 
   <Footer></Footer>
@@ -330,8 +347,8 @@ let display = ref(true);
 <style scoped>
 td, th{
     padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     font-weight: 400;
     font-size: 0.8rem;
 }

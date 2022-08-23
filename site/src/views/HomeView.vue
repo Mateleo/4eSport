@@ -32,13 +32,20 @@ import Footer from "../components/Footer.vue";
               <img src="../assets/ESL.jpg" alt="" />
             </div>
           </div>
-          <div class="w-full flex justify-center mt-5 sm:w-1/2 sm:pr-5">
+          <div class="flex items-center justify-center md:justify-start mt-5">
             <a
-              class="flex px-2 py-1 rounded-lg border-[1px] border-[white]/5 bg-[#2c15c5]/70 hover:bg-[#2c15c5] shadow-sm shadow-black/40"
+              class="flex px-2 py-1 rounded-lg border-[1px] border-[white]/5 bg-[#2c15c5]/70 hover:bg-[#2c15c5] shadow-sm shadow-black/40 mr-4"
               href="https://discord.gg/qEHEMyadrr"
               target="_blank"
             >
               <p class="text-lg font-semibold">Rejoins nous !</p>
+            </a>
+            <a
+              class="flex px-2 py-1 rounded-lg border-[1px] border-[white]/5 bg-[#8215c5]/70 hover:bg-[#8215c5] shadow-sm shadow-black/40 ml-4"
+              href="https://discord.gg/qEHEMyadrr"
+              target="_blank"
+            >
+              <p class="text-lg font-semibold">Cotiser</p>
             </a>
           </div>
         </div>
