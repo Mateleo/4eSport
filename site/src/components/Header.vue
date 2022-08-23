@@ -5,11 +5,13 @@
       class="w-full border-b-[1px] border-white/20 backdrop-blur-[2px] text-white bg-[#1C1C1C]/70"
     >
       <div
-        class="md:w-[90%] lg:w-[80%] m-auto w-full flex justify-between items-center px-4 py-3 md:px-0"
+        class="md:w-[90%] lg:w-[80%] max-w-[2000px] m-auto w-full flex justify-between items-center px-4 py-3 md:px-0"
       >
         <div class="flex items-center w-full">
           <div>
-            <router-link to="/" class="text-2xl md:text-3xl mr-3 hidden sm:block">4eSport</router-link>
+            <router-link to="/" class="text-2xl md:text-3xl mr-3 hidden sm:block"
+              >4eSport</router-link
+            >
           </div>
           <nav class="text-sm sm:text-base flex justify-between w-full sm:w-auto">
             <router-link
@@ -30,9 +32,21 @@
             >
             <router-link
               to="/boutique"
-              class="md:ml-2 ml-1 link-underline hover:text-[#15c584] transition-all ease-in-out delay-75"
+              class="md:ml-2 mx-1 hidden md:block link-underline hover:text-[#15c584] transition-all ease-in-out delay-75"
               >Boutique</router-link
             >
+            <router-link
+              to="/cotisation"
+              class="md:ml-2 ml-1 link-underline hover:text-[#15c584] transition-all ease-in-out delay-75 flex"
+              >Cotisation
+              <span
+                class="relative inline-flex rounded-full h-2 w-2 bg-sky-500"
+              >
+                <span
+                  class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"
+                ></span
+              ></span>
+            </router-link>
           </nav>
         </div>
         <div class="sm:flex sm:items-center hidden">

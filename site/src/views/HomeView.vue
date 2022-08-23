@@ -17,7 +17,9 @@ import Footer from "../components/Footer.vue";
             <h1 class="text-2xl md:text-3xl lg:text-4xl font-semibold text-[#15c584]">
               Pour tous, par tous.
             </h1>
-            <p class="mt-5 text-base md:text-lg lg:text-xl text-white/70 text-justify md:text-left">
+            <p
+              class="mt-5 text-base md:text-lg lg:text-xl text-white/70 text-justify md:text-left"
+            >
               4eSport est l’association de jeux vidéo de l'Efrei. Elle regroupe en son
               sein une multitude de pôles regroupant l’ensemble des jeux esportifs du
               moment. Elle est ouverte à tous sans condition.
@@ -43,12 +45,12 @@ import Footer from "../components/Footer.vue";
       </main>
       <div>
         <h2 class="font-semibold text-3xl mt-10 mb-5">Nos forces</h2>
-        <div class="sm:flex sm:justify-between grid grid-cols-2 gap-2 md:gap-6 lg:gap-20 gap-y-6">
+        <div
+          class="sm:flex sm:justify-between grid grid-cols-2 gap-2 md:gap-6 lg:gap-20 gap-y-6"
+        >
           <div class="flex flex-col sm:mr-8">
             <h3 class="font-semibold text-xl">Communauté</h3>
-            <p class="text-white/70 mt-2">
-              4eSport possède une commaunuté inégalée.
-            </p>
+            <p class="text-white/70 mt-2">4eSport possède une commaunuté inégalée.</p>
           </div>
           <div class="flex flex-col sm:mr-8">
             <h3 class="font-semibold text-xl">Online</h3>
