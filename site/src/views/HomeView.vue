@@ -62,7 +62,7 @@ import Footer from "../components/Footer.vue";
           <div class="flex flex-col sm:mr-8">
             <h3 class="font-semibold text-xl">Online</h3>
             <p class="text-white/70 mt-2">
-              De part sa nature, l'association est ouverte 24h/24h, 7j/7.
+              De par sa nature, l'association est ouverte 24h/24h, 7j/7.
             </p>
           </div>
           <div class="flex flex-col sm:mr-8">
