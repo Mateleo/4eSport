@@ -7,7 +7,7 @@ let display = ref(true);
 </script>
 <template>
   <Header></Header>
-  <main class="w-[95%] md:w-[90%] lg:w-[80%] m-auto sm:mt-[150px] mt-[70px] max-w-[1000px]">
+  <main class="w-[95%] md:w-[90%] lg:w-[80%] m-auto sm:mt-[70px] max-w-[1000px]">
     <div class="flex flex-col text-center">
       <h1 class="text-2xl md:text-5xl font-semibold">La cotisation</h1>
       <h2 class="text-base md:text-2xl font-semibold text-[#15c584]">

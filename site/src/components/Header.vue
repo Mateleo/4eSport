@@ -69,6 +69,7 @@
       </div>
     </header>
   </div>
+  <div class="h-[70px]"></div>
 </template>
 
 <style>

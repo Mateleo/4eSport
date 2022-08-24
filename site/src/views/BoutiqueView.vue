@@ -7,7 +7,7 @@ let display = ref(true);
 </script>
 <template>
   <Header></Header>
-  <main class="w-[95%] md:w-[90%] lg:w-[80%] m-auto sm:mt-[150px] mt-[70px]">
+  <main class="w-[95%] md:w-[90%] lg:w-[80%] m-auto sm:mt-[70px]">
     <div class="grid md:grid-cols-2 gap-6">
       <div class="flex text-center p-2 rounded-xl bg-white/20 max-w-[500px] m-auto aspect-[5/2.2]">
         <div class="w-1/3" @click="display=!display">

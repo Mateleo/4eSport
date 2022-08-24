@@ -5,7 +5,7 @@ import Footer from "../components/Footer.vue";
 
 <template>
   <Header></Header>
-  <main class="sm:mt-[150px] mt-[70px]">
+  <main class="mt-[70px] sm:mt-[100px]">
     <div class="w-[95%] md:w-[90%] lg:w-[80%] m-auto">
       <h1 class="font-semibold text-5xl w-full text-center sm:hidden block">4eSport</h1>
       <main class="flex sm:flex-row flex-col m-auto mt-10 justify-between">
