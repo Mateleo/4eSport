@@ -7,6 +7,8 @@ import BoutiqueView from "../views/BoutiqueView.vue";
 import CotisationView from "../views/CotisationView.vue";
 //@ts-ignore
 import NotFoundView from "../views/NotFoundView.vue";
+//@ts-ignore
+import ProjetsView from "../views/ProjetsView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -25,6 +27,11 @@ const router = createRouter({
       path: "/cotisation",
       name: "cotisation",
       component: CotisationView,
+    },
+    {
+      path: "/projets",
+      name: "projets",
+      component: ProjetsView,
     },
     {
       path:'/:pathMatch(.*)*',
