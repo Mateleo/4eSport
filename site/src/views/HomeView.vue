@@ -121,7 +121,7 @@ import Footer from "../components/Footer.vue";
             </div>
             <div class="aspect-square">
               <img
-                src="../assets/rocket league.jpg"
+                src="../assets/rocket_league.jpg"
                 class="rounded-xl shadow-md shadow-black/50"
                 alt=""
               />
