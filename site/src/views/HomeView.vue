@@ -40,13 +40,12 @@ import Footer from "../components/Footer.vue";
             >
               <p class="text-lg font-semibold">Rejoins nous !</p>
             </a>
-            <a
+            <router-link
               class="flex px-2 py-1 rounded-lg border-[1px] border-[white]/5 bg-[#8215c5]/70 hover:bg-[#8215c5] shadow-sm shadow-black/40 ml-4"
-              href="https://discord.gg/qEHEMyadrr"
-              target="_blank"
+              to="/cotisation"
             >
               <p class="text-lg font-semibold">Cotiser</p>
-            </a>
+            </router-link>
           </div>
         </div>
       </main>

@@ -9,7 +9,7 @@
       >
         <div class="flex items-center w-full">
           <div class="flex items-center">
-            <router-link to="/" class="md:text-3xl mr-3 text-sm"
+            <router-link to="/" class="md:text-3xl mr-3 text-sm sm:text-base"
               >4eSport</router-link
             >
           </div>

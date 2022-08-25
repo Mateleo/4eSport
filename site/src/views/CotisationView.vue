@@ -20,7 +20,7 @@ let display = ref(true);
       </p>
     </div>
     <table class="mt-10 m-auto">
-      <thead class="bg-[#353535] text-lg sticky top-[42px] sm:top-[62px]">
+      <thead class="bg-[#353535] text-lg sticky top-[42px] sm:top-[52px] md:top-[62px]">
         <tr>
           <th>Solutions</th>
           <th>Etudiant</th>
