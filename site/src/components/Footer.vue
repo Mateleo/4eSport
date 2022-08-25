@@ -19,15 +19,22 @@
           <img src="../assets/twitch-tv-32.png" />
         </a>
         <a
-          class="h-[16px] aspect-square"
+          class="h-[16px] aspect-square mr-3"
           href="https://twitter.com/4esport_efrei"
           target="_blank"
         >
           <img src="../assets/twitter-32.png" />
         </a>
+                <a
+          class="h-[16px] aspect-square"
+          href="https://www.instagram.com/4esport_efrei/"
+          target="_blank"
+        >
+          <img src="../assets/instagram.png" />
+        </a>
       </div>
       <div>
-        <h4 class="text-xs text-white/50">Made by 🌌 Mateleo</h4>
+        <h4 class="text-xs text-white/50 hidden sm:block">Made by 🌌 Mateleo</h4>
       </div>
       <div>
         <h4 class="text-xs text-white/50">4eSport - 2022</h4>

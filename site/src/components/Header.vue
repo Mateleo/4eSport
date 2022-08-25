@@ -8,8 +8,8 @@
         class="md:w-[90%] lg:w-[80%] max-w-[2000px] m-auto w-full flex justify-between items-center px-4 py-3 md:px-0"
       >
         <div class="flex items-center w-full">
-          <div>
-            <router-link to="/" class="text-2xl md:text-3xl mr-3 hidden sm:block"
+          <div class="flex items-center">
+            <router-link to="/" class="md:text-3xl mr-3 text-sm"
               >4eSport</router-link
             >
           </div>
@@ -27,7 +27,7 @@
             >
             <router-link
               to="/"
-              class="md:ml-2 mx-1 link-underline hover:text-[#15c584] transition-all ease-in-out delay-75"
+              class="md:ml-2 mx-1 link-underline hover:text-[#15c584] transition-all ease-in-out delay-75 hidden sm:block"
               >Palmarès</router-link
             >
             <router-link

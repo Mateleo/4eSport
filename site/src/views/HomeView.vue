@@ -83,7 +83,7 @@ import Footer from "../components/Footer.vue";
         <div class="flex flex-col text-center">
           <h1 class="text-lg md:text-3xl font-semibold">Une association en 5 pôles</h1>
           <h2 class="text-base md:text-lg font-semibold text-[#15c584]">
-            Sans condition de niveau
+            Quelque soit le niveau
           </h2>
         </div>
         <div>
@@ -98,7 +98,7 @@ import Footer from "../components/Footer.vue";
             </div>
             <div class="aspect-square">
               <img
-                src="../assets/lol.jpg"
+                src="../assets/R6.jpg"
                 class="rounded-xl shadow-md shadow-black/50"
                 alt=""
               />
@@ -106,7 +106,7 @@ import Footer from "../components/Footer.vue";
             </div>
             <div class="aspect-square">
               <img
-                src="../assets/lol.jpg"
+                src="../assets/csgo.jpg"
                 class="rounded-xl shadow-md shadow-black/50"
                 alt=""
               />
@@ -114,7 +114,7 @@ import Footer from "../components/Footer.vue";
             </div>
             <div class="aspect-square">
               <img
-                src="../assets/lol.jpg"
+                src="../assets/overwatch.jpg"
                 class="rounded-xl shadow-md shadow-black/50"
                 alt=""
               />
@@ -122,7 +122,7 @@ import Footer from "../components/Footer.vue";
             </div>
             <div class="aspect-square">
               <img
-                src="../assets/lol.jpg"
+                src="../assets/rocket league.jpg"
                 class="rounded-xl shadow-md shadow-black/50"
                 alt=""
               />
