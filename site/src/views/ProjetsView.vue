@@ -13,7 +13,7 @@ import Footer from "../components/Footer.vue";
       <div class="grid sm:gap-8 sm:grid-cols-3 gap-4 grid-cols-1 mt-5">
         <a class="p-4 bg-white/5 rounded-sm flex">
           <div class="rounded-full bg-black/70 my-auto p-2 sm:mt-0 mr-4">
-            <img src="../assets/NEC logo.png" alt="" class="aspect-square w-[65px]" />
+            <img src="../assets/NEC_logo.png" alt="" class="aspect-square w-[65px]" />
           </div>
           <div class="flex flex-col">
             <h4>NEC</h4>
