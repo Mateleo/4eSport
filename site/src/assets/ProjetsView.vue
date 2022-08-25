@@ -59,14 +59,14 @@ import Footer from "../components/Footer.vue";
       <div class="grid sm:gap-12 grid-cols-2 gap-4 mt-5">
         <a href="">
           <img
-            src="../assets/Programmes_4eSport/Diapositive1.jpg"
+            src="../assets/Diapositive1.jpg"
             alt=""
             class="rounded-sm"
           />
         </a>
         <a href="">
           <img
-            src="../assets/Programmes_4eSport/Diapositive2.jpg"
+            src="../assets/Diapositive2.jpg"
             alt=""
             class="rounded-sm"
           />
