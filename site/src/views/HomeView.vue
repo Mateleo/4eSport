@@ -82,7 +82,7 @@ import Footer from "../components/Footer.vue";
         <div class="flex flex-col text-center">
           <h1 class="text-lg md:text-3xl font-semibold">Une association en 5 pôles</h1>
           <h2 class="text-base md:text-lg font-semibold text-[#15c584]">
-            Quelque soit le niveau
+            Quel que soit le niveau
           </h2>
         </div>
         <div>
