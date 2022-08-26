@@ -61,7 +61,7 @@
             <p class="text-sm">GitHub</p>
           </a>
           <router-link
-            to="/mypanel"
+            to="/"
             class="px-2 py-1 rounded-lg border-[1px] border-white/5 bg-[#15c584]/80 hover:bg-[#15c584] text-sm font-semibold"
             >Login</router-link
           >
