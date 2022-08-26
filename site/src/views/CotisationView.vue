@@ -351,6 +351,7 @@ td, th{
     padding-bottom: 8px;
     font-weight: 400;
     font-size: 0.8rem;
+    text-align: center;
 }
 td:nth-child(2){
         border: 1px solid rgba(255, 255, 255, 0.1);
@@ -367,6 +368,9 @@ table{
 }
 .title{
     font-weight: 700;
+}
+svg{
+  margin: auto;
 }
 @media (min-width: 768px) {
     td, th{
