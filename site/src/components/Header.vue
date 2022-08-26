@@ -26,7 +26,7 @@
               >Projets</router-link
             >
             <router-link
-              to="/"
+              to="/palmares"
               class="md:ml-2 mx-1 link-underline hover:text-[#15c584] transition-all ease-in-out delay-75 hidden sm:block"
               >Palmarès</router-link
             >

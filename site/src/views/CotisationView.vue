@@ -11,7 +11,7 @@ let display = ref(true);
     <div class="flex flex-col text-center">
       <h1 class="text-2xl md:text-5xl font-semibold">La cotisation</h1>
       <h2 class="text-base md:text-2xl font-semibold text-[#15c584]">
-        Un prix unique, annuel
+        Le meilleur moyen de s'intégrer
       </h2>
       <p class="mt-4 italic text-white/70 text-xs md:text-sm">
         Nous avons fait le choix d'avoir une cotisation abordable pour tout le monde et
@@ -34,7 +34,7 @@ let display = ref(true);
           <td>
             <div class="flex flex-col">
             <h3 class="font-semibold  text-2xl md:text-4xl text-center">0€</h3>
-            <p class="text-white/60 text-xs md:text-sm text-center">Pour tous les étudiants de l'EFREI.</p>
+            <p class="text-white/60 text-xs md:text-sm text-center">Ouvert à tous</p>
             <div class="w-full flex justify-center mt-4">
             <a
               class="flex px-2 py-1 rounded-lg border-[1px] border-[white]/5 bg-[#2c15c5]/70 hover:bg-[#2c15c5] shadow-sm shadow-black/40 truncate"

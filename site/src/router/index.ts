@@ -9,6 +9,8 @@ import CotisationView from "../views/CotisationView.vue";
 import NotFoundView from "../views/NotFoundView.vue";
 //@ts-ignore
 import ProjetsView from "../views/ProjetsView.vue";
+//@ts-ignore
+import PalmaresView from "../views/PalmaresView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +34,11 @@ const router = createRouter({
       path: "/projets",
       name: "projets",
       component: ProjetsView,
+    },
+    {
+      path: "/palmares",
+      name: "palmares",
+      component: PalmaresView,
     },
     {
       path:'/:pathMatch(.*)*',
