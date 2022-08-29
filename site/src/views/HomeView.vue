@@ -169,7 +169,7 @@ import Footer from "../components/Footer.vue";
             <h2 class="text-base md:text-lg font-semibold text-[#15c584]">
               pour faire rêver
             </h2>
-            <p class="text-white/70 text-justify md:text-left">4eSport est présente depuis 2019 au côté de ses membres. Elle a rapidement évoluée pour devenir la
+            <p class="text-white/70 text-justify md:text-left mt-2">4eSport est présente depuis 2019 au côté de ses membres. Elle a rapidement évoluée pour devenir la
               deuxième plus grande association de l'école en 2022.
             </p>
           </div>
