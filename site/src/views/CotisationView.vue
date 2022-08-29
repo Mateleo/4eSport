@@ -53,7 +53,7 @@ let display = ref(true);
                           <div class="w-full flex justify-center mt-4">
             <a
               class="flex px-2 py-1 rounded-lg border-[1px] border-[white]/5 bg-[#8215c5]/70 hover:bg-[#8215c5] shadow-sm shadow-black/40 truncate"
-              href="https://discord.gg/qEHEMyadrr"
+              href="https://www.helloasso.com/associations/4esport/adhesions/cotisation-4esport-2022-2023"
               target="_blank"
             >
               <p class="md:text-lg font-semibold text-xs">Cotiser</p>
