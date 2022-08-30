@@ -34,7 +34,7 @@
         </a>
       </div>
       <div>
-        <h4 class="text-xs text-white/50 hidden sm:block">Made by 🌌 Mateleo</h4>
+        <h4 class="text-xs text-white/50 hidden sm:block">Made by 🌌 Mateleo | contact@4eSport.fr</h4>
       </div>
       <div>
         <h4 class="text-xs text-white/50">4eSport - 2022</h4>
