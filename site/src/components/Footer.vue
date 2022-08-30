@@ -25,7 +25,7 @@
         >
           <img src="../assets/twitter-32.png" />
         </a>
-                <a
+        <a
           class="h-[16px] aspect-square"
           href="https://www.instagram.com/4esport_efrei/"
           target="_blank"
@@ -34,7 +34,9 @@
         </a>
       </div>
       <div>
-        <h4 class="text-xs text-white/50 hidden sm:block">Made by 🌌 Mateleo | contact@4eSport.fr</h4>
+        <h4 class="text-xs text-white/50 hidden sm:block">
+          Made by 🌌 Mateleo | <a href="mailto:contact@4eSport.fr">contact@4eSport.fr</a>
+        </h4>
       </div>
       <div>
         <h4 class="text-xs text-white/50">4eSport - 2022</h4>
