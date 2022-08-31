@@ -15,7 +15,7 @@
           </div>
           <nav class="text-sm sm:text-base flex justify-between w-full sm:w-auto">
             <router-link
-              to="/create"
+              to="/events"
               class="md:mr-2 mr-1 link-underline hover:text-[#15c584] transition-all ease-in-out delay-75"
             >
               Evènements</router-link

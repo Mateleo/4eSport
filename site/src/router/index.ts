@@ -11,6 +11,8 @@ import NotFoundView from "../views/NotFoundView.vue";
 import ProjetsView from "../views/ProjetsView.vue";
 //@ts-ignore
 import PalmaresView from "../views/PalmaresView.vue";
+//@ts-ignore
+import EventsView from "../views/EventsView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -39,6 +41,11 @@ const router = createRouter({
       path: "/palmares",
       name: "palmares",
       component: PalmaresView,
+    },
+    {
+      path: "/events",
+      name: "Events",
+      component: EventsView,
     },
     {
       path:'/:pathMatch(.*)*',
