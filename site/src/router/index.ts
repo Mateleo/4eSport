@@ -48,7 +48,7 @@ const router = createRouter({
       component: EventsView,
     },
     {
-      path:'/fefez',
+      path:'/:pathMatch([^\/]*)*',
       name: '404',
       component: NotFoundView
   }
