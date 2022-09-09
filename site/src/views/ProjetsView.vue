@@ -71,6 +71,13 @@ import Footer from "../components/Footer.vue";
             class="rounded-sm"
           />
         </a>
+        <a>
+          <img
+            src="../assets/Diapositive3.png"
+            alt=""
+            class="rounded-sm"
+          />
+        </a>
       </div>
     </div>
   </main>
