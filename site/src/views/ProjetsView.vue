@@ -37,7 +37,11 @@ import Footer from "../components/Footer.vue";
             </p>
           </div>
         </a>
-        <a class="p-4 bg-white/5 rounded-sm flex" target="_blank">
+        <a
+          class="p-4 bg-white/5 rounded-sm flex"
+          target="_blank"
+          href="https://lolpros.4esport.fr/"
+        >
           <div class="rounded-full bg-black/70 my-auto p-2 sm:mt-0 mr-4">
             <img src="../assets/lolpros.svg" alt="" class="aspect-square w-[90px]" />
           </div>
@@ -58,25 +62,13 @@ import Footer from "../components/Footer.vue";
       </div>
       <div class="grid sm:gap-12 grid-cols-2 gap-4 mt-5">
         <a>
-          <img
-            src="../assets/Diapositive1.jpg"
-            alt=""
-            class="rounded-sm"
-          />
+          <img src="../assets/Diapositive1.jpg" alt="" class="rounded-sm" />
         </a>
         <a>
-          <img
-            src="../assets/Diapositive2.jpg"
-            alt=""
-            class="rounded-sm"
-          />
+          <img src="../assets/Diapositive2.jpg" alt="" class="rounded-sm" />
         </a>
         <a>
-          <img
-            src="../assets/Diapositive3.png"
-            alt=""
-            class="rounded-sm"
-          />
+          <img src="../assets/Diapositive3.png" alt="" class="rounded-sm" />
         </a>
       </div>
     </div>
