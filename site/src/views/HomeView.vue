@@ -176,7 +176,7 @@ import Footer from "../components/Footer.vue";
           </div>
         </div>
       </article>
-      <article class="mt-20">
+      <!-- <article class="mt-20">
         <div class="grid grid-cols-2 gap-8">
           <div>
             <iframe
@@ -199,7 +199,7 @@ import Footer from "../components/Footer.vue";
             </p>
           </div>
         </div>
-      </article>
+      </article> -->
     </div>
   </main>
   <Footer></Footer>
