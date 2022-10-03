@@ -147,7 +147,7 @@ import Footer from "../components/Footer.vue";
               <p class="text-2xl">🚀</p>
               <h4 class="font-semibold text-4xl">200+</h4>
               <p class="text-xs text-white/50">membres en 2022</p>
-            </div>  
+            </div>
             <div class="flex flex-col text-center">
               <p class="text-2xl">🤗</p>
               <h4 class="font-semibold text-4xl">1300+</h4>
@@ -169,8 +169,33 @@ import Footer from "../components/Footer.vue";
             <h2 class="text-base md:text-lg font-semibold text-[#15c584]">
               pour faire rêver
             </h2>
-            <p class="text-white/70 text-justify md:text-left mt-2">4eSport est présente depuis 2019 au côté de ses membres. Elle a rapidement évoluée pour devenir la
-              deuxième plus grande association de l'école en 2022.
+            <p class="text-white/70 text-justify md:text-left mt-2">
+              4eSport est présente depuis 2019 au côté de ses membres. Elle a rapidement
+              évoluée pour devenir la deuxième plus grande association de l'école en 2022.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="mt-20">
+        <div class="grid grid-cols-2 gap-8">
+          <div>
+            <iframe
+              src="https://discord.com/widget?id=252550911187091457&theme=dark"
+              width="350"
+              height="500"
+              allowtransparency="true"
+              frameborder="0"
+              sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+            ></iframe>
+          </div>
+          <div>
+            <h1 class="text-lg md:text-3xl font-semibold">Quelques chiffres</h1>
+            <h2 class="text-base md:text-lg font-semibold text-[#15c584]">
+              pour faire rêver
+            </h2>
+            <p class="text-white/70 text-justify md:text-left mt-2">
+              4eSport est présente depuis 2019 au côté de ses membres. Elle a rapidement
+              évoluée pour devenir la deuxième plus grande association de l'école en 2022.
             </p>
           </div>
         </div>

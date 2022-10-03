@@ -7,7 +7,7 @@ import Footer from "../components/Footer.vue";
   <main class="w-[95%] md:w-[90%] lg:w-[80%] m-auto mt-[100px]">
     <div class="flex flex-col">
       <h1 class="text-lg md:text-3xl font-semibold">Nos projets</h1>
-      <h2 class="text-base md:text-lg font-semibold text-[#15c584]">Ajoute le tiens</h2>
+      <h2 class="text-base md:text-lg font-semibold text-[#15c584]">Ajoute le tien</h2>
     </div>
     <div>
       <div class="grid sm:gap-8 sm:grid-cols-3 gap-4 grid-cols-1 mt-5">
