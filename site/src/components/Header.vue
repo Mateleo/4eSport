@@ -1,18 +1,6 @@
 <script setup lang="ts"></script>
 <template>
   <div class="fixed top-0 left-0 right-0 z-10">
-    <a
-      class="w-full"
-      target="_blank"
-      href="https://www.helloasso.com/associations/4esport/evenements/lan-espot"
-    >
-      <p
-        class="font-semibold text-xs md:text-base py-1 text-center bg-[#15c584] border-b-[1px] border-white/20 backdrop-blur-[2px] text-white"
-      >
-        LAN à l'ESpot | 19h-23h, vendredi 14 octobre | 15€ ouvert aux externes | 5€ pour nos
-        membres
-      </p>
-    </a>
     <header
       class="w-full border-b-[1px] border-white/20 backdrop-blur-[2px] text-white bg-[#1C1C1C]/70"
     >
