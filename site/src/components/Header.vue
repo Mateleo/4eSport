@@ -10,7 +10,7 @@
         <div class="flex items-center w-full">
           <div class="flex items-center">
             <router-link to="/" class="md:text-3xl mr-3 text-sm sm:text-base"
-              >4eSport</router-link
+              >4eSport.fr</router-link
             >
           </div>
           <nav class="text-sm sm:text-base flex justify-between w-full sm:w-auto">
