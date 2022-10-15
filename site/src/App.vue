@@ -20,4 +20,7 @@ body{
   padding: 0;
   background-color: #1C1C1C;
 }
+:root {
+  color-scheme: dark;
+}
 </style>
