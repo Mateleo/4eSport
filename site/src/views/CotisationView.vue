@@ -161,7 +161,7 @@ let display = ref(true);
         </tr>
         </tr>
         <tr>
-          <th>Points PAVE</th>
+          <th>Learning XP</th>
           <td>
             <svg
               class="text-gray-400 h-5 w-5"
@@ -308,6 +308,38 @@ let display = ref(true);
         </tr>
                 <tr>
           <th>Giveaways</th>
+          <td>
+            <svg
+              class="text-gray-400 h-5 w-5"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </td>
+          <td>
+            <svg
+              class="h-5 w-5 text-green-500"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th>LoL Tracker</th>
           <td>
             <svg
               class="text-gray-400 h-5 w-5"
