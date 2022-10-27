@@ -9,7 +9,7 @@
       </div>
       <div class="m-auto">
         <img
-          src="../assets/Logo Classique Carré Compensé.png"
+          src="../assets/logo_noir.png"
           class="h-[32px] w-[32px]"
           alt=""
         />
