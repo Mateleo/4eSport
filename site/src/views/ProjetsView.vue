@@ -11,7 +11,11 @@ import Footer from "../components/Footer.vue";
     </div>
     <div>
       <div class="grid sm:gap-8 sm:grid-cols-3 gap-4 grid-cols-1 mt-5">
-        <a class="p-4 bg-white/5 rounded-sm flex">
+        <a
+          target="_blank"
+          href="https://nec.4esport.fr/"
+          class="p-4 bg-white/5 rounded-sm flex"
+        >
           <div class="rounded-full bg-black/70 my-auto p-2 sm:mt-0 mr-4">
             <img src="../assets/NEC_logo.png" alt="" class="aspect-square w-[65px]" />
           </div>
@@ -25,7 +29,7 @@ import Footer from "../components/Footer.vue";
         <a
           class="p-4 bg-white/5 rounded-sm flex"
           target="_blank"
-          href="https://lolbets.herokuapp.com/"
+          href="http://lolbets.4esport.fr/"
         >
           <div class="rounded-full bg-black/70 my-auto p-2 sm:mt-0 mr-4">
             <img src="../assets/gem.png" alt="" class="aspect-square w-[70px]" />
