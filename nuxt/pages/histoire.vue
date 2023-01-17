@@ -28,15 +28,16 @@
             <li class="text-white/70 my-2">Cleaver établie officiellement 4eSport en tant qu'association loi 1901. Il est le premier président.</li>
             <li class="text-white/70 my-2">Cleaver pose les bases de l'administration de 4eSport. CA, responsable pôle, équipes ELITE etc...</li>
             <li class="text-white/70 my-2">Mateleo, nouveau L1, devient le premier responsable League of Legends.</li>
+            <li class="text-white/70 my-2">Création du pôle R6.</li>
         </div>
         <div>
             <h1 class="text-3xl font-semibold text-white/90 mt-6">2020</h1>
             <div class="h-[10px] w-[65px] border-b-4 mb-5 border-green-500"></div>
-            <li class="text-white/70 my-2">4eSport devient le plus gros discord de l'école.</li>
+            <li class="text-white/70 my-2">4eSport devient le deuxième plus gros discord de l'école.</li>
             <li class="text-white/70 my-2">League of Legends représente 80% de l'activité du Discord. CSGO, Hearthstone et Overwatch complètent le
                 reste.</li>
             <li class="text-white/70 my-2">Mateleo évolue pour devenir responsable eSport et rentre au CA</li>
-            <li class="text-white/70 my-2">l'équipe ELITE LoL, toujours avec Grois Poisson et Némésis, finit 4e pour cette GL. La visibilité
+            <li class="text-white/70 my-2">L'équipe ELITE LoL, toujours avec Grois Poisson et Némésis, finit 4e pour cette GL. La visibilité
                 nationale de l'association est assurée.</li>
         </div>
         <div>
@@ -44,6 +45,7 @@
             <div class="h-[10px] w-[65px] border-b-4 mb-5 border-green-500"></div>
             <li class="text-white/70 my-2">Mateleo devient le nouveau président de l'association.</li>
             <li class="text-white/70 my-2">Une cotisation de 10€ est mise en place.</li>
+            <li class="text-white/70 my-2">Le pôle R6 continue de grossir.</li>
             <li class="text-white/70 my-2">La pandémie frappe de plein fouet le monde associatif. 4eSport, association 100% en ligne, connait un
                 succès sans précédent.</li>
             <li class="text-white/70 my-2">Pendant 2 semaines, NotEnoughCards, le jeu de cartes à collectionner de l'association fait fureur.</li>
@@ -53,11 +55,12 @@
         <div>
             <h1 class="text-3xl font-semibold text-white/90 mt-6">2022</h1>
             <div class="h-[10px] w-[65px] border-b-4 mb-5 border-green-500"></div>
-            <li class="text-white/70 my-2">La pôle Valorant est créé. Pour la première fois, il dépasse le pôle League of Legends en termes de recrutement.</li>
-            <li class="text-white/70 my-2">Paul entre au CA en tant que Vice-président.</li>
+            <li class="text-white/70 my-2">La pôle Valorant est créé. Pour la première fois, il dépasse le pôle League of Legends en termes de recrutement et le pôle R6 en terme d'activité.</li>
+            <li class="text-white/70 my-2">P4ND4 entre au CA en tant que Vice-président.</li>
             <li class="text-white/70 my-2">L'association se modernise et s'automatise. Tickets, LXP, etc...</li>
-            <li class="text-white/70 my-2">le site web 4eSport.fr est mis en ligne.</li>
+            <li class="text-white/70 my-2">Le site web 4eSport.fr est mis en ligne.</li>
             <li class="text-white/70 my-2">Un pull associatif est proposé aux membres.</li>
+            <li class="text-white/70 my-2">4eSport.</li>
             <li class="text-white/70 my-2">NEC S2 dépasse les 200 joueurs uniques en 2 semaines.</li>
             <li class="text-white/70 my-2">Une communication renforcée se met en place. Les affiches et messages sont plus récurrents. Une responsable communication est recrutée.</li>
         </div>
