@@ -3,7 +3,7 @@
   <div class="fixed top-0 left-0 right-0 z-10">
     <header class="w-full border-b-[1px] border-white/20 backdrop-blur-[2px] text-white bg-[#1C1C1C]/70">
       <div
-        class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[2000px] m-auto flex justify-between items-center py-1 md:py-2">
+        class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1500px] m-auto flex justify-between items-center py-1 md:py-2">
         <div class="flex items-center w-full hidden md:block">
           <div class="flex items-center">
             <NuxtLink to="/" class="md:text-3xl text-sm font-bold">4eSport</NuxtLink>

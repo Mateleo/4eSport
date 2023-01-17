@@ -8,7 +8,7 @@ let display = ref(true)
 
 <template>
   <main class="sm:mt-[80px]">
-    <div class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[2000px] m-auto">
+    <div class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1500px] m-auto">
       <h1 class="font-semibold text-3xl w-full text-center sm:hidden block">4eSport</h1>
       <main class="flex sm:flex-row flex-col m-auto mt-10 justify-between">
         <div class="grid sm:grid-cols-2 grid-rows-2 sm:grid-rows-none lg:gap-20 gap-12">
@@ -117,7 +117,7 @@ let display = ref(true)
             </div>
             <div class="flex flex-col text-center">
               <p class="text-2xl">🤗</p>
-              <h4 class="font-semibold sm:text-4xl text-xl">1300+</h4>
+              <h4 class="font-semibold sm:text-4xl text-xl">1700+</h4>
               <p class="text-xs text-white/50 md:text-sm">utilisateurs sur notre Discord</p>
             </div>
             <div class="flex flex-col text-center">
@@ -151,22 +151,22 @@ let display = ref(true)
           </h2>
           <p class="text-xs text-white/70 mt-4">Réductions jusqu'à 50% pour les membres de l'association. Dans la limite du possible.</p>
         </div>
-        <div class="flex justify-center mt-10">
+        <div class="flex sm:justify-center mt-10 justify-between flex-wrap md:flex-nowrap gap-2 sm:gap-0">
           <a class="my-auto" href="https://eliminate.fr/produit/4esport-hoodie/" target="_blank">
             <div
               class="p-2 bg-[#333333] rounded-lg shadow-black/50 shadow-md hover:bg-[#444444] transition-colors ease-in">
-              <img src="../assets/unknown.png" alt="" class="h-[270px] w-[250px] object-cover">
+              <img src="../assets/unknown.png" alt="" class="h-[140px] w-[90px] md:h-[270px] md:w-[250px] object-cover">
             </div>
             <p class="text-white/70 text-center mt-2">Pull v1 | 40€</p>
           </a>
-          <a class="z-10 -mx-2" href="https://eliminate.fr/produit/4esport-jersey-2022/" target="_blank">
+          <a class="z-10 md:-mx-2" href="https://eliminate.fr/produit/4esport-jersey-2022/" target="_blank">
             <div
               class="p-2 bg-[#333333] rounded-lg shadow-black/50 shadow-md hover:bg-[#444444] transition-colors ease-in"
               @mouseenter="display = false" @mouseleave="display = true">
               <img v-if="display" src="../assets/Maillot_ORIGIN_fonce.png" alt=""
-                class="h-[320px] w-[250px] object-cover scale-[1.2]">
+                class="h-[140px] w-[90px] sm:h-[220px] sm:w-[150px] md:h-[320px] md:w-[250px] object-cover scale-[1.2]">
               <img v-else src="../assets/Maillot_ORIGIN_MODELISATION_3D.png" alt=""
-                class="h-[320px] w-[250px] object-cover scale-[1.2]">
+                class=" h-[140px] w-[90px] sm:h-[220px] sm:w-[150px] md:h-[320px] md:w-[250px] object-cover scale-[1.2]">
               <div />
             </div>
             <p class="text-white/70 text-center mt-2">Maillot | 35€</p>
@@ -174,7 +174,7 @@ let display = ref(true)
           <a class="my-auto" href="https://eliminate.fr/produit/4esport-hoodie-brode/" target="_blank">
             <div
               class="p-2 bg-[#333333] rounded-lg shadow-black/50 shadow-md hover:bg-[#444444] transition-colors ease-in">
-              <img src="../assets/unknown.png" alt="" class="h-[270px] w-[250px] object-cover">
+              <img src="../assets/4ESPORT_hoodie_navy.png" alt="" class="h-[140px] w-[90px] md:h-[270px] md:w-[250px] object-cover">
             </div>
             <p class="text-white/70 text-center mt-2">Pull v2 | 40€</p>
           </a>

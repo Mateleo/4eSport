@@ -1,14 +1,14 @@
 <script setup lang="ts">
 </script>
 <template>
-  <main class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[2000px] m-auto mt-[80px]">
+  <main class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1500px] m-auto mt-[80px]">
     <div class="flex flex-col">
       <h1 class="text-lg md:text-3xl font-semibold">Nos projets</h1>
       <h2 class="text-base md:text-lg font-semibold text-[#15c584]">Ajoute le tien</h2>
     </div>
     <div>
       <div class="grid sm:gap-8 sm:grid-cols-3 gap-4 grid-cols-1 mt-5">
-        <a
+        <!-- <a
           target="_blank"
           href="https://nec.4esport.fr/"
           class="p-4 bg-white/5 rounded-sm flex"
@@ -22,7 +22,7 @@
               NotEnoughCards est un jeu de cartes à collectioner en ligne.
             </p>
           </div>
-        </a>
+        </a> -->
         <a
           class="p-4 bg-white/5 rounded-sm flex"
           target="_blank"
@@ -32,8 +32,8 @@
             <img src="../assets/gem.png" alt="" class="aspect-square w-[70px]" />
           </div>
           <div class="flex flex-col">
-            <h4>LoLbets</h4>
-            <p class="text-xs text-white/50">
+            <h4 class="md:text-xl">LoLbets</h4>
+            <p class="text-xs md:text-sm text-white/60">
               LoLbets est un site de paris fictif consacré à League of Legends
             </p>
           </div>
@@ -47,8 +47,8 @@
             <img src="../assets/lolpros.svg" alt="" class="aspect-square w-[90px]" />
           </div>
           <div class="flex flex-col">
-            <h4>LoL4Pros</h4>
-            <p class="text-xs text-white/50">
+            <h4 class="md:text-xl">LoL4Pros</h4>
+            <p class="text-xs md:text-sm text-white/60">
               LoL4Pros est une version détournée de LoLPros pour les joueurs LoL de
               4eSport
             </p>
