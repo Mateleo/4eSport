@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/google-fonts", "@nuxtjs/robots"],
+  modules: ["@nuxtjs/google-fonts", "@nuxtjs/robots","nuxt-simple-sitemap"],
   postcss: {
     plugins: {
       tailwindcss: {
@@ -73,5 +73,11 @@ export default defineNuxtConfig({
       ],
     },
     pageTransition: { name: 'page', mode: 'out-in' }
+  },
+  runtimeConfig: {
+    siteUrl: 'https://4esport.fr',
+  },
+  sitemap: {
+    hostname: 'https://4esport.fr',
   },
 });
