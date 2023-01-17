@@ -34,6 +34,10 @@ export default defineNuxtConfig({
     head: {
       title: "4eSport",
       meta: [
+        {
+          name: "google-site-verification",
+          content: "XVOVwp6cx0xAEXKuYX33fYJsfgpGVg5YmjzXK7FNBfs",
+        },
         { name: "title", content: "4eSport - Le fun par la performance" },
         {
           name: "description",
