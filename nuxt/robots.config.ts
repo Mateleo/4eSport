@@ -1,7 +1,8 @@
 export default [
     { UserAgent: '*' },
+    { Allow: '/' },
     { BlankLine: true },
     { Comment: '4eSport' },
 
-    { Sitemap: (req) => `https://${req.headers.host}/sitemap.xml` }
+    { Sitemap: (req) => `https://4esport.fr/sitemap.xml` }
 ]
