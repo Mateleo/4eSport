@@ -49,7 +49,7 @@ let display = ref(true)
         <div class="sm:flex sm:justify-between grid grid-cols-2 gap-2 md:gap-6 lg:gap-20 gap-y-6">
           <div class="flex flex-col">
             <h3 class="font-semibold sm:text-xl md:text-2xl text-white/80">Communauté</h3>
-            <p class="text-white/70 mt-2 md:text-lg text-xs">4eSport possède une commaunuté inégalée.</p>
+            <p class="text-white/70 mt-2 md:text-lg text-xs">4eSport possède une communauté inégalée.</p>
           </div>
           <div class="flex flex-col">
             <h3 class="font-semibold sm:text-xl md:text-2xl text-white/80">Online</h3>
