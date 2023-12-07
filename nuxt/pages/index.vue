@@ -73,7 +73,7 @@ let display = ref(true)
       </div>
       <article class="lg:mt-40 mt-10 md:mt-20">
         <div class="flex flex-col text-center">
-          <h1 class="text-lg md:text-3xl lg:text-4xl font-semibold">Une association en 6 pôles</h1>
+          <h1 class="text-lg md:text-3xl lg:text-4xl font-semibold">Une association en 7 pôles</h1>
           <h2 class="text-base md:text-lg font-semibold text-[#15c584]">
             Quel que soit le niveau
           </h2>
@@ -81,28 +81,36 @@ let display = ref(true)
         <div>
           <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 sm:gap-10 gap-6 mt-10">
             <div class="aspect-square">
-              <img src="../assets/lol.jpg" class="rounded-xl shadow-md shadow-black/50" alt="" />
+              <img src="../assets/lol.jpg" class="rounded-xl shadow-md shadow-black/50" alt="League of Legends" />
               <h3 class="text-center text-white/60 mt-3 sm:text-base lg:text-lg text-xs">League of Legends</h3>
             </div>
             <div class="aspect-square">
-              <img src="../assets/R6.jpg" class="rounded-xl shadow-md shadow-black/50" alt="" />
+              <img src="../assets/R6.jpg" class="rounded-xl shadow-md shadow-black/50" alt="Rainbow Six" />
               <h3 class="text-center text-white/60 mt-3 sm:text-base lg:text-lg text-xs">Rainbow Six</h3>
             </div>
             <div class="aspect-square">
-              <img src="../assets/csgo.jpg" class="rounded-xl shadow-md shadow-black/50" alt="" />
-              <h3 class="text-center text-white/60 mt-3 sm:text-base lg:text-lg text-xs">CSGO</h3>
+              <img src="../assets/csgo.jpg" class="rounded-xl shadow-md shadow-black/50" alt="Counter Strike 2" />
+              <h3 class="text-center text-white/60 mt-3 sm:text-base lg:text-lg text-xs">CS2</h3>
             </div>
             <div class="aspect-square">
-              <img src="../assets/overwatch.jpg" class="rounded-xl shadow-md shadow-black/50" alt="" />
+              <img src="../assets/overwatch.jpg" class="rounded-xl shadow-md shadow-black/50" alt="Overwatch 2" />
               <h3 class="text-center text-white/60 mt-3 sm:text-base lg:text-lg text-xs">Overwatch 2</h3>
             </div>
             <div class="aspect-square">
-              <img src="../assets/rocket_league.jpg" class="rounded-xl shadow-md shadow-black/50" alt="" />
+              <img src="../assets/rocket_league.jpg" class="rounded-xl shadow-md shadow-black/50" alt="Rocket League" />
               <h3 class="text-center text-white/60 mt-3 sm:text-base lg:text-lg text-xs">Rocket League</h3>
             </div>
             <div class="aspect-square">
-              <img src="../assets/valorant.jpg" class="rounded-xl shadow-md shadow-black/50" alt="" />
+              <img src="../assets/valorant.jpg" class="rounded-xl shadow-md shadow-black/50" alt="Valorant" />
               <h3 class="text-center text-white/60 mt-3 sm:text-base lg:text-lg text-xs">Valorant</h3>
+            </div>
+            <div class="aspect-square">
+              <img src="../assets/TFT.jpg" class="rounded-xl shadow-md shadow-black/50" alt="Teamfight Tactics" />
+              <h3 class="text-center text-white/60 mt-3 sm:text-base lg:text-lg text-xs">Teamfight Tactics</h3>
+            </div>
+            <div class="aspect-square">
+              <img src="../assets/loading.jpg" class="rounded-xl shadow-md shadow-black/50" alt="" />
+              <h3 class="text-center text-white/60 mt-3 sm:text-base lg:text-lg text-xs">À venir ...</h3>
             </div>
           </div>
         </div>
@@ -113,11 +121,11 @@ let display = ref(true)
             <div class="flex flex-col text-center">
               <p class="text-2xl">🚀</p>
               <h4 class="font-semibold sm:text-4xl text-xl">200+</h4>
-              <p class="text-xs text-white/50 md:text-sm">membres en 2022</p>
+              <p class="text-xs text-white/50 md:text-sm">membres en 2022 et 2023</p>
             </div>
             <div class="flex flex-col text-center">
               <p class="text-2xl">🤗</p>
-              <h4 class="font-semibold sm:text-4xl text-xl">1700+</h4>
+              <h4 class="font-semibold sm:text-4xl text-xl">2200+</h4>
               <p class="text-xs text-white/50 md:text-sm">utilisateurs sur notre Discord</p>
             </div>
             <div class="flex flex-col text-center">
@@ -149,10 +157,19 @@ let display = ref(true)
           <h2 class="text-base md:text-lg font-semibold text-[#15c584]">
             Il est temps de Flex
           </h2>
-          <p class="text-xs text-white/70 mt-4">Réductions jusqu'à 50% pour les membres de l'association. Dans la limite du possible.</p>
+          <p class="text-xs text-white/70 mt-4">Réductions jusqu'à 50% pour les membres de l'association. Dans la limite
+            du possible.</p>
         </div>
         <div class="flex sm:justify-center mt-10 justify-between flex-wrap md:flex-nowrap gap-2 sm:gap-0">
-          <a class="my-auto" href="https://eliminate.fr/produit/4esport-hoodie/" target="_blank">
+          <a class="my-auto" href="https://eliminate.fr/produit/4esport-hoodie-brode-2024/" target="_blank">
+              <div
+                class="p-2 bg-[#333333] rounded-lg shadow-black/50 shadow-md hover:bg-[#444444] transition-colors ease-in">
+                <img src="../assets/4ESPORT_hoodie_white.png" alt=""
+                  class="h-[140px] w-[90px] md:h-[243px] md:w-[225px] object-cover">
+              </div>
+              <p class="text-white/70 text-center mt-2">Pull v3 (Blanc) | 40€</p>
+            </a>
+          <a class="my-auto" href="https://eliminate.fr/produit/4esport-hoodie-brode-2022/" target="_blank">
             <div
               class="p-2 bg-[#333333] rounded-lg shadow-black/50 shadow-md hover:bg-[#444444] transition-colors ease-in">
               <img src="../assets/unknown.png" alt="" class="h-[140px] w-[90px] md:h-[270px] md:w-[250px] object-cover">
@@ -171,12 +188,21 @@ let display = ref(true)
             </div>
             <p class="text-white/70 text-center mt-2">Maillot | 35€</p>
           </a>
-          <a class="my-auto" href="https://eliminate.fr/produit/4esport-hoodie-brode/" target="_blank">
+          <a class="my-auto" href="https://eliminate.fr/produit/4esport-hoodie-brode-2023/" target="_blank">
             <div
               class="p-2 bg-[#333333] rounded-lg shadow-black/50 shadow-md hover:bg-[#444444] transition-colors ease-in">
-              <img src="../assets/4ESPORT_hoodie_navy.png" alt="" class="h-[140px] w-[90px] md:h-[270px] md:w-[250px] object-cover">
+              <img src="../assets/4ESPORT_hoodie_navy.png" alt=""
+                class="h-[140px] w-[90px] md:h-[270px] md:w-[250px] object-cover">
             </div>
             <p class="text-white/70 text-center mt-2">Pull v2 | 40€</p>
+          </a>
+          <a class="my-auto" href="https://eliminate.fr/produit/4esport-hoodie-brode-2024/" target="_blank">
+            <div
+              class="p-2 bg-[#333333] rounded-lg shadow-black/50 shadow-md hover:bg-[#444444] transition-colors ease-in">
+              <img src="../assets/4ESPORT_hoodie_pink.png" alt=""
+                class="h-[140px] w-[90px] md:h-[243px] md:w-[225px] object-cover">
+            </div>
+            <p class="text-white/70 text-center mt-2">Pull v3 (Rose) | 40€</p>
           </a>
         </div>
       </article>

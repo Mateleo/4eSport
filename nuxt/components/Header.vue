@@ -5,11 +5,11 @@
       class="w-full border-b-[1px] border-white/20 backdrop-blur-[2px] text-white bg-[#1C1C1C]/70"
     >
       <a
-        href="https://www.helloasso.com/associations/4esport/evenements/lan-espot-1"
+        href="https://www.helloasso.com/associations/4esport/boutiques/sweat-4esport-2024"
         target="_blank"
         class="text-center w-full bg-green-600 font-bold text-xl flex justify-center py-1 text-white/90 hover:text-white transition-all ease-in-out"
       >
-        Réserve ta place pour l'ESpot V2 - 21 avril de 19h à 23h
+        Achète ton pull 4eSport 2024. Disponible en rose et en blanc !
       </a>
       <div
         class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1500px] m-auto flex justify-between items-center py-1 md:py-2"

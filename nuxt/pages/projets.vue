@@ -54,6 +54,21 @@
             </p>
           </div>
         </a>
+        <a
+            class="p-4 bg-white/5 rounded-sm flex"
+            target="_blank"
+            href="https://calibrum.4esport.fr/"
+          >
+            <div class="rounded-full bg-black/70 my-auto p-2 sm:mt-0 mr-4">
+              <img src="../assets/logo_calibrum.png" alt="" class="aspect-square w-[90px]" />
+            </div>
+            <div class="flex flex-col">
+              <h4 class="md:text-xl">Calibrum</h4>
+              <p class="text-xs md:text-sm text-white/60">
+                Calibrum est le successeur de LoL4Pros, avec un nouveau design et de nouvelles fonctionnalités !
+              </p>
+            </div>
+          </a>
       </div>
       <div class="flex flex-col mt-20">
         <h1 class="text-lg md:text-3xl font-semibold">Nos programmes</h1>
