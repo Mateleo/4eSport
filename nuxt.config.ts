@@ -1,29 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/google-fonts", "@nuxtjs/robots","nuxt-simple-sitemap"],
-  postcss: {
-    plugins: {
-      tailwindcss: {
-        config: {
-          theme: {
-            fontFamily: {
-              heebo: ["Heebo", "sans-serif"],
-            },
-          },
-          content: [
-            "./components/**/*.{js,vue,ts}",
-            "./layouts/**/*.vue",
-            "./pages/**/*.vue",
-            "./plugins/**/*.{js,ts}",
-            "./nuxt.config.{js,ts}",
-            "./app.vue",
-          ],
-        },
-      },
-      autoprefixer: {},
-    },
-  },
-  css: ["~/assets/css/main.css"],
+  modules: ["@nuxtjs/google-fonts", "@nuxtjs/robots", "nuxt-simple-sitemap", "@nuxtjs/tailwindcss"],
   googleFonts: {
     families: {
       Heebo: true,
@@ -72,12 +49,11 @@ export default defineNuxtConfig({
         },
       ],
     },
-    pageTransition: { name: 'page', mode: 'out-in' }
   },
   runtimeConfig: {
     siteUrl: 'https://4esport.fr',
   },
-  sitemap: {
-    hostname: 'https://4esport.fr',
+  site: {
+    url: 'https://4esport.fr',
   },
 });

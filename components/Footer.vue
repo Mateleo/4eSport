@@ -34,8 +34,8 @@
         </a>
       </div>
       <div>
-        <h4 class="text-xs text-white/50 hidden sm:block">
-          Made by 🌌 <a href="https://mateo-siam.com" class="underline" target="_blank">Mateleo</a> | <a href="mailto:contact@4eSport.fr">contact@4eSport.fr</a>
+        <h4 class="text-[11px] text-white/50 hidden sm:block">
+            Made by 🌌 <a href="https://mateo-siam.com" class="underline" target="_blank">Mateleo</a> updated by 🐼 <span class="underline">P4ND4</span> | <a href="mailto:contact@4eSport.fr">contact@4eSport.fr</a>
         </h4>
       </div>
       <div>

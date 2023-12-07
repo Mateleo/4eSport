@@ -4,5 +4,5 @@ export default [
     { BlankLine: true },
     { Comment: '4eSport' },
 
-    { Sitemap: (req) => `https://4esport.fr/sitemap.xml` }
+    { Sitemap: (req: any) => `https://4esport.fr/sitemap.xml` }
 ]
