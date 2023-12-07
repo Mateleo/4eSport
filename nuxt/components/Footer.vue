@@ -23,7 +23,7 @@
           href="https://twitter.com/4esport_efrei"
           target="_blank"
         >
-          <img src="../assets/twitter-32.png" />
+          <img src="../assets/x_logo.svg" /> 
         </a>
         <a
           class="h-[16px] aspect-square"
