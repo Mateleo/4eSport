@@ -130,7 +130,7 @@ let display = ref(true)
             </div>
             <div class="flex flex-col text-center">
               <p class="text-2xl">🌟</p>
-              <h4 class="font-semibold sm:text-4xl text-xl">800+</h4>
+              <h4 class="font-semibold sm:text-4xl text-xl">3100+</h4>
               <p class="text-xs text-white/50 md:text-sm">points LXP distribués</p>
             </div>
             <div class="flex flex-col text-center">
