@@ -39,7 +39,7 @@
         </h4>
       </div>
       <div>
-        <h4 class="text-xs text-white/50">4eSport - 2023</h4>
+        <h4 class="text-xs text-white/50">4eSport - 2024</h4>
       </div>
     </div>
   </footer>

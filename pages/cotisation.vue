@@ -12,7 +12,7 @@ let display = ref(true);
             <p class="mt-4 italic text-white/70 text-xs md:text-sm">
                 Nous avons fait le choix d'avoir une cotisation abordable pour tout le monde et
                 qui ne discrimine pas ceux qui ne souhaite pas cotiser. Ainsi la cotisation permet
-                de débloquer la PAVE mais avant tout de soutenir l'association.
+                de débloquer la LXP mais avant tout de soutenir l'association.
             </p>
         </div>
         <table class="mt-10 m-auto">
