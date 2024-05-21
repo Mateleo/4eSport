@@ -34,7 +34,7 @@ let display = ref(true);
                             <p class="text-white/60 text-xs md:text-sm text-center">Ouvert à tous</p>
                             <div class="w-full flex justify-center mt-4">
                                 <a class="flex px-2 py-1 rounded-lg border-[1px] border-[white]/5 bg-[#2c15c5]/70 hover:bg-[#2c15c5] shadow-sm shadow-black/40 truncate"
-                                    href="https://discord.gg/qEHEMyadrr" target="_blank">
+                                    href="https://discord.gg/4eSport" target="_blank">
                                     <p class="md:text-lg font-semibold text-xs">Nous rejoindre</p>
                                 </a>
                             </div>

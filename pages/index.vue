@@ -28,7 +28,7 @@ let display = ref(true)
             </div>
             <div class="flex items-center justify-center md:justify-start mt-3">
               <a class="flex px-2 py-1 rounded-lg border-[1px] border-[white]/5 bg-[#2c15c5]/70 hover:bg-[#2c15c5] shadow-sm shadow-black/40 mr-4"
-                href="https://discord.gg/qEHEMyadrr" target="_blank">
+                href="https://discord.gg/4eSport" target="_blank">
                 <p class="sm:text-lg text-sm font-semibold">Rejoins nous !</p>
               </a>
               <router-link
