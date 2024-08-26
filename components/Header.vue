@@ -5,11 +5,11 @@
       class="w-full border-b-[1px] border-white/20 backdrop-blur-[2px] text-white bg-[#1C1C1C]/70"
     >
       <a
-        href="https://discord.gg/4esport"
+        href="https://discord.com/channels/252550911187091457/1210558515660329000"
         target="_blank"
         class="text-center w-full bg-green-600 font-bold text-xl flex justify-center py-1 text-white/90 hover:text-white transition-all ease-in-out"
       >
-        Rejoins-nous sur Discord !
+        Inscris-toi au tournoi 4eS ARENA du 6 septembre 2024 à 20h30 !
       </a>
       <div
         class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1500px] m-auto flex justify-between items-center py-1 md:py-2"
