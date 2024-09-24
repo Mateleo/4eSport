@@ -2,9 +2,9 @@
 <template>
   <div class="fixed top-0 left-0 right-0 z-10">
     <header class="w-full border-b-[1px] border-white/20 backdrop-blur-[2px] text-white bg-[#1C1C1C]/70">
-      <a href="https://discord.com/channels/252550911187091457/1282592779100487722" target="_blank"
+      <a href="https://discord.com/channels/252550911187091457/367444313241550849/1288222151048171520" target="_blank"
         class="text-center w-full bg-green-600 font-bold text-xl flex justify-center py-1 text-white/90 hover:text-white transition-all ease-in-out">
-        Inscris-toi au Tournoi 4eS Valorant du 21 septembre 2024 à 12h30 !
+        Inscris-toi au Tournoi 4eS Fortnite du 5 octobre 2024 à 16h00 !
       </a>
       <div class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1500px] m-auto flex justify-between items-center py-1 md:py-2">
         <div class="items-center hidden md:flex">
