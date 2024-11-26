@@ -1,5 +1,7 @@
 {
+  "name": "4esport",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -8,15 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.0.4",
-    "@nuxtjs/google-fonts": "3.1.0",
-    "@nuxtjs/tailwindcss": "^6.10.1",
-    "autoprefixer": "^10.4.16",
-    "nuxt": "^3.8.2",
-    "nuxt-simple-sitemap": "^4.1.9",
-    "postcss": "^8.4.32"
+    "@nuxt/devtools": "^1.6.1",
+    "@nuxt/fonts": "^0.10.2",
+    "@nuxtjs/robots": "^5.0.0",
+    "@nuxtjs/sitemap": "^7.0.0",
+    "@nuxtjs/tailwindcss": "^6.12.2"
   },
   "dependencies": {
-    "@nuxtjs/robots": "^3.0.0"
-  }
+    "@nuxtjs/seo": "^2.0.2",
+    "nuxt": "^3.14.1592"
+  },
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
 }
