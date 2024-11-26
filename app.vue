@@ -1,7 +1,8 @@
 <script lang="ts" setup>
 
 useSeoMeta({
-  title: "4eSport",
+  title: "4eSport - Le fun par la performance",
+  titleTemplate:"4eSport - Le fun par la performance",
   twitterTitle: "4eSport - Le fun par la performance",
   ogTitle: "4eSport - Le fun par la performance",
   description:
