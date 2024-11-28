@@ -14,25 +14,25 @@
           >
             <NuxtLink
               :to="`${article._path}`"
-              class="bg-white/5 aspect-[8/9] border border-white/10 hover:bg-white/[1%] hover:outline hover:outline-4 hover:outline-green-500 shadow-black shadow-lg flex flex-col rounded-xl"
+              class="bg-white/5 aspect-[8/10] border border-white/10 hover:bg-white/[1%] hover:outline hover:outline-4 hover:outline-green-500 shadow-black shadow-lg flex flex-col rounded-xl"
             >
               <div
-                class="h-1/2 w-full rounded-t-xl"
+                class="h-[45%] w-full rounded-t-xl"
                 :style="{
                   backgroundImage: `url(/content/thumbnail/${article.thumbnail})`,
                   backgroundPosition: 'center',
-                  backgroundSize: 'cover',
+                  backgroundSize: 'contain',
                 }"
               ></div>
-              <div class="flex flex-col p-4 h-1/2">
-                <div class="font-semibold text-sm text-green-400 border border-green-800 rounded-lg px-2 py-1 mb-4 m-auto ml-0 bg-green-950/40">
+              <div class="flex flex-col p-4 h-[55%]">
+                <div class="font-semibold text-xs text-green-400 border border-green-800 rounded-lg px-2 py-[3px] mb-2 lg:mb-4 m-auto ml-0 bg-green-950/40">
                   {{ article.tag }}
                 </div>
-                <h3 class="text-2xl font-semibold">{{ article.title }}</h3>
-                <p class="text-white/60 text-lg overflow-hidden h-[40px] mt leading-5">{{ article.description }}</p>
+                <h3 class="text-xl lg:text-2xl font-semibold">{{ article.title }}</h3>
+                <p class="text-white/60 text-md overflow-hidden h-[40px] mt leading-5">{{ article.description }}</p>
                 <div class="grow"></div>
                 <div class="grid grids-cols-2">
-                  <p class="text-white/60 text-xl">{{ $dayjs(article.date, "DD/MM/YYYY").format("D MMMM YYYY") }}</p>
+                  <p class="text-white/60 text-md lg:text-lg">{{ $dayjs(article.date, "DD/MM/YYYY").format("D MMMM YYYY") }}</p>
                   <div class="flex relative w-full">
                     <div
                       v-for="(author, index) in article.author.split(',').map((item: string) => item.trim()).reverse()"
