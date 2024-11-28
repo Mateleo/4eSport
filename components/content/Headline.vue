@@ -28,10 +28,9 @@ const props = defineProps({
       <h2 class="text-white/70 text-2xl custom mt-2">{{ props.description }}</h2>
       <div class="flex gap-2 -ml-4 my-6">
         <NuxtLink
-        to="/"
           v-if="props.author"
           v-for="(author, index) in props.author.split(',').map((item: string) => item.trim())"
-          class="flex gap-2 rounded-lg hover:bg-white/20 px-4 py-2 items-center"
+          class="flex gap-2 rounded-lg hover:bg-white/20 px-4 py-2 items-center cursor-pointer"
         >
           <div><img :src="`/content/author/${author}.png`" alt="" class="size-[48px] rounded-full" /></div>
           <div class="flex flex-col">

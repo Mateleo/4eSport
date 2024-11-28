@@ -22,7 +22,7 @@ const { page } = useContent()
 
 <style scoped>
 main :where(h1):not(.custom) {
-  @apply text-4xl font-bold text-white mt-10 mb-4;
+  @apply text-4xl font-bold text-white mb-4;
   scroll-margin-top: 60px;
 }
 main :where(h2):not(.custom) {
@@ -46,7 +46,7 @@ main :where(code:not(pre code)) {
   @apply text-white py-[1px] px-2 border border-white/20 bg-white/[5%] rounded-sm;
 }
 main :where(pre) {
-  @apply bg-white/5 p-4 rounded-md mb-4;
+  @apply bg-white/5 p-4 rounded-md mb-4 text-sm;
 }
 main :where(pre > code) {
   font-family: "Fira Code";
