@@ -1,6 +1,6 @@
 <script lang=ts setup></script>
 <template>
-    <div class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1500px] m-auto">
+    <div class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1300px] m-auto">
         <h1 class="text-xl md:text-3xl font-semibold mt-20">
                 Découvre l'histoire de ton association.
               </h1>

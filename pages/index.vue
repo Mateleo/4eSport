@@ -4,7 +4,7 @@ let display = ref(true);
 
 <template>
   <main class="sm:mt-[80px]">
-    <div class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1500px] m-auto">
+    <div class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1300px] m-auto">
       <h1 class="font-semibold text-3xl w-full text-center sm:hidden block">
         4eSport
       </h1>

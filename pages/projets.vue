@@ -1,7 +1,7 @@
 <script setup lang="ts">
 </script>
 <template>
-  <main class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1500px] m-auto mt-[80px]">
+  <main class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1300px] m-auto mt-[80px]">
     <div class="flex flex-col">
       <h1 class="text-lg md:text-3xl font-semibold">Nos projets</h1>
       <h2 class="text-base md:text-lg font-semibold text-[#15c584]">Ajoute le tien</h2>

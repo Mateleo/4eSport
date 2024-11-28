@@ -2,7 +2,7 @@
 
 <template>
   <footer class="border-t-[1px] border-white/20 py-4 mt-20">
-    <div class="flex justify-between w-[95%] md:w-[90%] lg:w-[80%] max-w-[1500px] m-auto">
+    <div class="flex justify-between w-[95%] md:w-[90%] lg:w-[80%] max-w-[1300px] m-auto">
       <div class="flex">
         <a
           class="h-[16px] aspect-square mr-3"
