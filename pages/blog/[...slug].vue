@@ -1,6 +1,37 @@
 <script setup lang="ts">
 const { page } = useContent()
 
+useSeoMeta({
+  title: () => `${page.value.title}`,
+  titleTemplate: () => `${page.value.title}`,
+  twitterTitle: () => `${page.value.title}`,
+  ogTitle:() => `${page.value.title}`,
+  description:
+    `${page.value.description}`,
+  ogDescription:
+    `${page.value.description}`,
+  twitterDescription:
+    `${page.value.description}`,
+  ogImage:()=>
+    `/content/thumbnail/${page.value.thumbnail}`,
+  twitterImage:
+    `/content/thumbnail/${page.value.thumbnail}`,
+  twitterCard: "summary_large_image",
+  themeColor: "#0EA5E9",
+  ogType: "website",
+  ogUrl: "https://4esport.fr/",
+  ogLocale: "fr_FR",
+  msapplicationTileColor: "#0EA5E9",
+  author: "Mateleo",
+  ogSiteName: "4eSport",
+  twitterSite: "4eSport",
+  twitterCreator: "Mateleo",
+  mobileWebAppCapable: "yes",
+  appleMobileWebAppTitle: "4eSport",
+  ogImageHeight: 1200,
+  ogImageWidth: 630,
+  ogImageType: "image/png",
+});
 
 
 </script>
