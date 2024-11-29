@@ -1,5 +1,9 @@
 <script setup lang="ts">
-const { toc } = useContent()
+const props = defineProps({
+  toc: {
+    type: Object,
+  },
+});
 </script>
 
 <template>

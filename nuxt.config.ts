@@ -45,16 +45,14 @@ export default defineNuxtConfig({
     defaultTimezone: 'Europe/Paris',
   },
   content: {
-    documentDriven: {
-      page:true,
-      surround:false
-    },
     highlight: {
       // Theme used in all color schemes.
       theme: 'monokai',
     }
   },
-
-
+  site: {
+    url: "https://4esport.fr",
+    name: "4eSport"
+  },
   compatibilityDate: "2024-11-26",
 });

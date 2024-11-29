@@ -1,21 +1,17 @@
 <script setup lang="ts">
-const { page } = useContent()
+const route = useRoute();
+const { data: page } = await useAsyncData("my-page", queryContent(route.path).findOne);
 
 useSeoMeta({
-  title: () => `${page.value.title}`,
-  titleTemplate: () => `${page.value.title}`,
-  twitterTitle: () => `${page.value.title}`,
-  ogTitle:() => `${page.value.title}`,
-  description:
-    `${page.value.description}`,
-  ogDescription:
-    `${page.value.description}`,
-  twitterDescription:
-    `${page.value.description}`,
-  ogImage:()=>
-    `/content/thumbnail/${page.value.thumbnail}`,
-  twitterImage:
-    `/content/thumbnail/${page.value.thumbnail}`,
+  title: () => `${page.value?.title ?? "4eSport"}`,
+  titleTemplate: () => `${page.value?.title ?? "4eSport"}`,
+  twitterTitle: () => `${page.value?.title ?? "4eSport"}`,
+  ogTitle: () => `${page.value?.title ?? "4eSport"}`,
+  description: `${page.value?.description}`,
+  ogDescription: `${page.value?.description}`,
+  twitterDescription: `${page.value?.description}`,
+  ogImage: () => `/content/thumbnail/${page.value?.thumbnail}`,
+  twitterImage: `/content/thumbnail/${page.value?.thumbnail}`,
   twitterCard: "summary_large_image",
   themeColor: "#0EA5E9",
   ogType: "website",
@@ -32,19 +28,27 @@ useSeoMeta({
   ogImageWidth: 630,
   ogImageType: "image/png",
 });
-
-
 </script>
 
 <template>
-  <main class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1300px] m-auto">
-    <Headline :date="page.date" :title="page.title" :description="page.description" :author="page.author" :tag="page.tag"></Headline>
+  <main v-if="page" class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1300px] m-auto">
+    <Headline
+      :date="page.date"
+      :title="page.title"
+      :description="page.description"
+      :author="page.author"
+      :tag="page.tag"
+    ></Headline>
     <div class="grid grid-cols-9">
-      <ContentRenderer :key="page._id" :value="page"  class="text-gray-300 text-md col-span-9 md:col-span-7 text-justify md:pr-8" />
+      <ContentRenderer
+        :key="page._id"
+        :value="page"
+        class="text-gray-300 text-md col-span-9 md:col-span-7 text-justify md:pr-8"
+      />
       <div class="hidden md:flex flex-col md:col-span-2">
         <div class="sticky top-[100px] right-0">
           <p class="text-sm font-semibold text-white">Table des matières</p>
-          <Navigation class="text-sm"></Navigation>
+          <Navigation class="text-sm" :toc="page.body?.toc"></Navigation>
         </div>
       </div>
     </div>
@@ -68,7 +72,7 @@ main :where(a) {
   @apply text-[#00DC82] font-medium;
 }
 main :where(hr) {
-  @apply my-8
+  @apply my-8;
 }
 main :where(h2 a, h3 a, h1 a) {
   @apply text-white font-bold;
