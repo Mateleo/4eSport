@@ -56,6 +56,7 @@ useSeoMeta({
 </template>
 
 <style scoped>
+
 main :where(h1):not(.custom) {
   @apply text-4xl font-bold text-white mb-4;
   scroll-margin-top: 60px;
