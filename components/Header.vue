@@ -2,9 +2,9 @@
 <template>
   <div class="fixed top-0 left-0 right-0 z-10">
     <header class="w-full border-b-[1px] border-white/20 backdrop-blur-[2px] text-white bg-[#1C1C1C]/70">
-      <a href="https://discord.com/channels/252550911187091457/367444313241550849/1290753491886805023" target="_blank"
-        class="text-center w-full bg-green-600 font-bold text-xl flex justify-center py-1 text-white/90 hover:text-white transition-all ease-in-out">
-        Inscris-toi au Tournoi CS2 4eSport:STRIKE3 du 12 octobre 2024 à 13h00 !
+      <a href="https://discord.com/channels/252550911187091457/367444313241550849/1412104803470803005" target="_blank"
+        class="text-center w-full bg-red-800 font-bold text-xl flex justify-center py-1 text-white/90 hover:text-white transition-all ease-in-out">
+        Participe au concours et tente de gagner ta place pour les Valorant Champions Paris !
       </a>
       <div class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1500px] m-auto flex justify-between items-center py-1 md:py-2">
         <div class="items-center hidden md:flex">
