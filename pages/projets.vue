@@ -14,7 +14,7 @@
           class="p-4 bg-white/5 rounded-sm flex"
         >
           <div class="rounded-full bg-black/70 my-auto p-2 sm:mt-0 mr-4">
-            <img src="../assets/NEC_logo.png" alt="" class="aspect-square w-[65px]" />
+            <img src="../assets/NEC_logo.webp" alt="" class="aspect-square w-[65px]" />
           </div>
           <div class="flex flex-col">
             <h4>NEC</h4>
@@ -26,31 +26,15 @@
         <a
           class="p-4 bg-white/5 rounded-sm flex"
           target="_blank"
-          href="http://lolbets.4esport.fr/"
+          href="https://retake.4esport.fr/"
         >
           <div class="rounded-full bg-black/70 my-auto p-2 sm:mt-0 mr-4">
-            <img src="../assets/gem.png" alt="" class="aspect-square w-[70px]" />
+            <img src="../assets/retake.svg" alt="" class="aspect-square w-[70px]" />
           </div>
           <div class="flex flex-col">
-            <h4 class="md:text-xl">LoLbets</h4>
+            <h4 class="md:text-xl">Retake</h4>
             <p class="text-xs md:text-sm text-white/60">
-              LoLbets est un site de paris fictif consacré à League of Legends
-            </p>
-          </div>
-        </a>
-        <a
-          class="p-4 bg-white/5 rounded-sm flex"
-          target="_blank"
-          href="https://lolpros.4esport.fr/"
-        >
-          <div class="rounded-full bg-black/70 my-auto p-2 sm:mt-0 mr-4">
-            <img src="../assets/lolpros.svg" alt="" class="aspect-square w-[90px]" />
-          </div>
-          <div class="flex flex-col">
-            <h4 class="md:text-xl">LoL4Pros</h4>
-            <p class="text-xs md:text-sm text-white/60">
-              LoL4Pros est une version détournée de LoLPros pour les joueurs LoL de
-              4eSport
+              Hub compétitif CS2 de l'association.
             </p>
           </div>
         </a>
@@ -60,7 +44,7 @@
             href="https://calibrum.4esport.fr/"
           >
             <div class="rounded-full bg-black/70 my-auto p-2 sm:mt-0 mr-4">
-              <img src="../assets/logo_calibrum.png" alt="" class="aspect-square w-[90px]" />
+              <img src="../assets/logo_calibrum.webp" alt="" class="aspect-square w-[90px]" />
             </div>
             <div class="flex flex-col">
               <h4 class="md:text-xl">Calibrum</h4>
@@ -76,16 +60,14 @@
           Surtout en interne
         </h2>
       </div>
-      <div class="grid sm:gap-12 grid-cols-2 gap-4 mt-5">
-        <a>
-          <img src="../assets/Diapositive1.jpg" alt="" class="rounded-sm" />
-        </a>
-        <a>
-          <img src="../assets/Diapositive2.jpg" alt="" class="rounded-sm" />
-        </a>
-        <a>
-          <img src="../assets/Diapositive3.png" alt="" class="rounded-sm" />
-        </a>
+      <div class="mt-5 max-w-[640px]">
+        <img
+          src="../assets/Diapositive3.webp"
+          alt="4eSport Learning XP"
+          loading="lazy"
+          decoding="async"
+          class="rounded-sm w-full"
+        />
       </div>
     </div>
   </main>

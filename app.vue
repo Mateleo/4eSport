@@ -2,7 +2,9 @@
 
 useSeoMeta({
   title: "4eSport - Le fun par la performance",
-  titleTemplate:"4eSport - Le fun par la performance",
+  // "%s" laisse chaque page définir son propre titre ; sans ça, une chaîne
+  // fixe ici écrase les titres de toutes les pages.
+  titleTemplate: "%s",
   twitterTitle: "4eSport - Le fun par la performance",
   ogTitle: "4eSport - Le fun par la performance",
   description:
@@ -66,6 +68,28 @@ html,
 :root {
   color: white;
   color-scheme: dark;
+}
+
+/* Apparition au scroll — piloté par la directive v-reveal (plugins/reveal.client.ts) */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal-in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .reveal,
+  .reveal-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 .page-enter-active,

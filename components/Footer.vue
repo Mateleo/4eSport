@@ -35,11 +35,11 @@
       </div>
       <div>
         <h4 class="text-[11px] text-white/50 hidden sm:block">
-            Made by 🌌 <a href="https://mateo-siam.com" class="underline" target="_blank">Mateleo</a> updated by 🐼 <span class="underline">P4ND4</span> | <a href="mailto:contact@4eSport.fr">contact@4eSport.fr</a>
+            Made by 🌌 <a href="https://mateo-siam.com" class="underline" target="_blank">Mateleo</a> for 4eSport | <a href="mailto:contact@4eSport.fr">contact@4eSport.fr</a>
         </h4>
       </div>
       <div>
-        <h4 class="text-xs text-white/50">4eSport - 2024</h4>
+        <h4 class="text-xs text-white/50">4eSport - 2026</h4>
       </div>
     </div>
   </footer>

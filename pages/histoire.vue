@@ -1,73 +1,111 @@
-<script lang=ts setup></script>
+<script setup lang="ts">
+import { timeline } from "~/data/histoire";
+
+useSeoMeta({
+  title: "Notre histoire - 4eSport",
+  description:
+    "De 2018 à aujourd'hui : l'épopée de 4eSport, l'association de jeux vidéo de l'Efrei.",
+});
+
+// Une année vide reste hors du site tant qu'elle n'est pas remplie.
+const years = computed(() => timeline.filter((entry) => entry.events.length));
+
+const selected = ref(years.value[years.value.length - 1]?.year ?? 0);
+const current = computed(() => years.value.find((entry) => entry.year === selected.value));
+</script>
+
 <template>
-    <div class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1500px] m-auto">
-        <h1 class="text-xl md:text-3xl font-semibold mt-20">
-                Découvre l'histoire de ton association.
-              </h1>
-              <h1 class="textxl md:text-2xl font-semibold text-[#15c584]">
-                L'épopée de 4eSport.
-              </h1>
-        <div>
-            <h1 class="text-3xl font-semibold text-white/90 mt-6">2018</h1>
-            <div class="h-[10px] w-[65px] border-b-4 mb-5 border-green-500"></div>
-            <li class="text-white/70 my-2">4eSport n'existe pas encore sous le nom que nous le connaissons aujourd'hui. C'est un discord de 20
-                personnes, fermé. Un simple club du BDS.</li>
-            <li class="text-white/70 my-2">Arrivé de Cleaver, Gros Poisson et Némésis. Cleaver s'occupe de démocratiser le club en ouvrant le
-                discord à tous. Le nom 4eSport sera utilisé.</li>
-            <li class="text-white/70 my-2">Némésis et Gros Poisson forment une team League of Legends pour l'arrivée d'une nouvelle Compétition : La
-                Grosse Ligue.</li>
-        </div>
-        <div>
-            <h1 class="text-3xl font-semibold text-white/90 mt-6">2019</h1>
-            <div class="h-[10px] w-[65px] border-b-4 mb-5 border-green-500"></div>
-            <li class="text-white/70 my-2">L'équipe 4eSport avec Gros Poisson et Némésis gagne la compétition. L'équipe devient championne de France
-                étudiant de League of Legends. La communication de l'EFREI s'empare du sujet. La popularité du discord
-                explose.</li>
-            <li class="text-white/70 my-2">Champion de France, 4eSport est qualifiée pour représenter la France aux championnats européen étudiant
-                de League of Legends. Cependant, elle finit avant dernière de sa poule.</li>
-            <li class="text-white/70 my-2">Cleaver établie officiellement 4eSport en tant qu'association loi 1901. Il est le premier président.</li>
-            <li class="text-white/70 my-2">Cleaver pose les bases de l'administration de 4eSport. CA, responsable pôle, équipes ELITE etc...</li>
-            <li class="text-white/70 my-2">Mateleo, nouveau L1, devient le premier responsable League of Legends.</li>
-            <li class="text-white/70 my-2">Création du pôle R6.</li>
-        </div>
-        <div>
-            <h1 class="text-3xl font-semibold text-white/90 mt-6">2020</h1>
-            <div class="h-[10px] w-[65px] border-b-4 mb-5 border-green-500"></div>
-            <li class="text-white/70 my-2">4eSport devient le deuxième plus gros discord de l'école.</li>
-            <li class="text-white/70 my-2">League of Legends représente 80% de l'activité du Discord. CSGO, Hearthstone et Overwatch complètent le
-                reste.</li>
-            <li class="text-white/70 my-2">Mateleo évolue pour devenir responsable eSport et rentre au CA</li>
-            <li class="text-white/70 my-2">L'équipe ELITE LoL, toujours avec Grois Poisson et Némésis, finit 4e pour cette GL. La visibilité
-                nationale de l'association est assurée.</li>
-        </div>
-        <div>
-            <h1 class="text-3xl font-semibold text-white/90 mt-6">2021</h1>
-            <div class="h-[10px] w-[65px] border-b-4 mb-5 border-green-500"></div>
-            <li class="text-white/70 my-2">Mateleo devient le nouveau président de l'association.</li>
-            <li class="text-white/70 my-2">Une cotisation de 10€ est mise en place.</li>
-            <li class="text-white/70 my-2">Le pôle R6 continue de grossir.</li>
-            <li class="text-white/70 my-2">La pandémie frappe de plein fouet le monde associatif. 4eSport, association 100% en ligne, connait un
-                succès sans précédent.</li>
-            <li class="text-white/70 my-2">Pendant 2 semaines, NotEnoughCards, le jeu de cartes à collectionner de l'association fait fureur.</li>
-            <li class="text-white/70 my-2">Le maillot 4eSport voit le jour.</li>
-            <li class="text-white/70 my-2">4eSport devient officieusement la plus grande association de l'école avec 218 adhérents.</li>
-        </div>
-        <div>
-            <h1 class="text-3xl font-semibold text-white/90 mt-6">2022</h1>
-            <div class="h-[10px] w-[65px] border-b-4 mb-5 border-green-500"></div>
-            <li class="text-white/70 my-2">La pôle Valorant est créé. Pour la première fois, il dépasse le pôle League of Legends en termes de recrutement et le pôle R6 en terme d'activité.</li>
-            <li class="text-white/70 my-2">P4ND4 entre au CA en tant que Vice-président.</li>
-            <li class="text-white/70 my-2">L'association se modernise et s'automatise. Tickets, LXP, etc...</li>
-            <li class="text-white/70 my-2">Le site web 4eSport.fr est mis en ligne.</li>
-            <li class="text-white/70 my-2">Un pull associatif est proposé aux membres.</li>
-            <li class="text-white/70 my-2">4eSport.</li>
-            <li class="text-white/70 my-2">NEC S2 dépasse les 200 joueurs uniques en 2 semaines.</li>
-            <li class="text-white/70 my-2">Une communication renforcée se met en place. Les affiches et messages sont plus récurrents. Une responsable communication est recrutée.</li>
-        </div>
-        <div>
-            <h1 class="text-3xl font-semibold text-white/90 mt-6">2023</h1>
-            <div class="h-[10px] w-[65px] border-b-4 mb-5 border-green-500"></div>
-            <li class="text-white/70 my-2">Une variante du pull est proposée.</li>
-        </div>
+  <main class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1100px] m-auto sm:mt-[70px]">
+    <div v-reveal class="flex flex-col text-center">
+      <h1 class="text-2xl md:text-5xl font-semibold">
+        Découvre l'histoire de ton association.
+      </h1>
+      <h2 class="text-base md:text-2xl font-semibold text-[#15c584]">
+        L'épopée de 4eSport.
+      </h2>
     </div>
+
+    <div class="mt-10 md:mt-16 flex flex-col md:flex-row md:gap-10">
+      <!-- Sélecteur d'années : rail vertical sur desktop, pastilles scrollables sur mobile -->
+      <nav
+        class="md:sticky md:top-[110px] md:h-fit md:w-[130px] md:shrink-0 -mx-[2.5%] px-[2.5%] md:mx-0 md:px-0"
+        aria-label="Années"
+      >
+        <ul
+          class="flex md:flex-col gap-2 overflow-x-auto md:overflow-visible pb-2 md:pb-0 snap-x"
+        >
+          <li v-for="entry in years" :key="entry.year" class="snap-start">
+            <button
+              type="button"
+              class="year-btn w-full shrink-0 rounded-lg border px-4 py-2 text-left text-lg font-semibold transition-all duration-200"
+              :class="
+                entry.year === selected
+                  ? 'border-[#15c584]/50 bg-[#15c584]/10 text-[#15c584]'
+                  : 'border-white/10 bg-white/[0.03] text-white/50 hover:border-white/25 hover:text-white/80'
+              "
+              :aria-current="entry.year === selected ? 'true' : undefined"
+              @click="selected = entry.year"
+            >
+              {{ entry.year }}
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Contenu : toutes les années sont dans le DOM (SEO), une seule visible -->
+      <div class="mt-6 md:mt-0 flex-1">
+        <div v-for="entry in years" v-show="entry.year === selected" :key="entry.year">
+          <div class="flex items-baseline gap-3">
+            <span class="text-4xl md:text-6xl font-bold text-white/10 leading-none">
+              {{ entry.year }}
+            </span>
+            <span v-if="entry.tagline" class="text-sm md:text-lg font-semibold text-[#15c584]">
+              {{ entry.tagline }}
+            </span>
+          </div>
+
+          <ol class="relative mt-5 space-y-3 border-l border-white/10 pl-5 md:pl-6">
+            <li
+              v-for="(event, i) in entry.events"
+              :key="i"
+              class="event relative rounded-lg border border-white/10 bg-white/[0.04] px-4 py-3 text-sm md:text-base text-white/75 leading-relaxed transition-colors hover:border-white/20 hover:bg-white/[0.07]"
+              :style="{ animationDelay: `${i * 45}ms` }"
+            >
+              <span
+                class="absolute left-[-25px] md:left-[-29px] top-5 h-[9px] w-[9px] rounded-full bg-[#15c584]"
+                aria-hidden="true"
+              ></span>
+              {{ event }}
+            </li>
+          </ol>
+        </div>
+
+        <p v-if="!current" class="text-white/50">Aucune année à afficher pour le moment.</p>
+      </div>
+    </div>
+  </main>
 </template>
+
+<style scoped>
+/* Chaque évènement entre en cascade au changement d'année */
+.event {
+  animation: event-in 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes event-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+.year-btn {
+  scroll-margin: 1rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .event {
+    animation: none;
+  }
+}
+</style>

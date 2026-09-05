@@ -14,7 +14,8 @@
     "@nuxt/fonts": "^0.10.2",
     "@nuxtjs/robots": "^5.0.0",
     "@nuxtjs/sitemap": "^7.0.0",
-    "@nuxtjs/tailwindcss": "^6.12.2"
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "sharp": "^0.35.4"
   },
   "dependencies": {
     "@nuxtjs/seo": "^2.0.2",
