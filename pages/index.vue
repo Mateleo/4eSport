@@ -8,6 +8,13 @@ import valorant from "~/assets/valorant.webp";
 import tft from "~/assets/TFT.webp";
 import fortnite from "~/assets/fortnite.webp";
 import soon from "~/assets/loading.webp";
+import sweatWhite from "~/assets/4ESPORT_sweat_white_2026.webp";
+import sweatBlack from "~/assets/4ESPORT_sweat_black_2026.webp";
+import maillot2025 from "~/assets/Maillot_2025.webp";
+import hoodie2024 from "~/assets/4ESPORT_hoodie_white.webp";
+import hoodie2023 from "~/assets/4ESPORT_hoodie_navy.webp";
+import hoodie2022 from "~/assets/unknown.webp";
+import maillot2022 from "~/assets/Maillot_ORIGIN_fonce.webp";
 
 // `accent` = couleur du halo au survol de la tuile.
 const poles = [
@@ -22,7 +29,81 @@ const poles = [
   { name: "À venir ...", img: soon, accent: "#15c584" },
 ];
 
-let display = ref(true);
+// Prix relevés sur eliminate.fr/categorie-produit/clubs-esport/4esport/
+// À revérifier si la boutique bouge.
+const boutique = [
+  {
+    name: "Sweat Brodé White",
+    price: "39,40 €",
+    img: sweatWhite,
+    url: "https://eliminate.fr/produit/4esport-sweat-brode-white/",
+    nouveau: true,
+  },
+  {
+    name: "Sweat Brodé Black",
+    price: "39,40 €",
+    img: sweatBlack,
+    url: "https://eliminate.fr/produit/4esport-sweat-brode/",
+    nouveau: true,
+  },
+  {
+    name: "Jersey 2025",
+    price: "29,90 €",
+    img: maillot2025,
+    url: "https://eliminate.fr/produit/4esport-jersey-2025/",
+    nouveau: true,
+  },
+  {
+    name: "Hoodie Brodé 2024",
+    price: "40,40 €",
+    img: hoodie2024,
+    url: "https://eliminate.fr/produit/4esport-hoodie-brode-2024/",
+  },
+  {
+    name: "Hoodie Brodé 2023",
+    price: "40,40 €",
+    img: hoodie2023,
+    url: "https://eliminate.fr/produit/4esport-hoodie-brode-2023/",
+  },
+  {
+    name: "Hoodie Brodé 2022",
+    price: "40,40 €",
+    img: hoodie2022,
+    url: "https://eliminate.fr/produit/4esport-hoodie-brode-2022/",
+  },
+  {
+    name: "Jersey 2022",
+    price: "34,99 €",
+    img: maillot2022,
+    url: "https://eliminate.fr/produit/4esport-jersey-2022/",
+  },
+];
+
+// Carrousel boutique : les flèches n'apparaissent que s'il reste à défiler
+// de ce côté, et disparaissent donc quand tout tient à l'écran.
+const shopTrack = ref<HTMLElement | null>(null);
+const canScrollLeft = ref(false);
+const canScrollRight = ref(false);
+
+function updateShopArrows() {
+  const el = shopTrack.value;
+  if (!el) return;
+  canScrollLeft.value = el.scrollLeft > 8;
+  canScrollRight.value = el.scrollLeft + el.clientWidth < el.scrollWidth - 8;
+}
+
+function scrollShop(direction: 1 | -1) {
+  const el = shopTrack.value;
+  if (!el) return;
+  // Défile d'un écran moins une carte, pour garder un repère visuel.
+  el.scrollBy({ left: direction * (el.clientWidth - 120), behavior: "smooth" });
+}
+
+onMounted(() => {
+  updateShopArrows();
+  window.addEventListener("resize", updateShopArrows);
+});
+onBeforeUnmount(() => window.removeEventListener("resize", updateShopArrows));
 
 // Grand Tournoi de Rentrée 26-27 : 12 septembre 2026 à 20h.
 const tournoiDate = "2026-09-12T20:00:00+02:00";
@@ -215,51 +296,41 @@ const tournoiDate = "2026-09-12T20:00:00+02:00";
             limite du possible.
           </p>
         </div>
-        <div v-reveal="100" class="flex sm:justify-center mt-10 justify-between flex-wrap md:flex-nowrap gap-2 sm:gap-0">
-          <a class="my-auto" href="https://eliminate.fr/produit/4esport-hoodie-brode-2024/" target="_blank">
-            <div
-              class="p-2 bg-[#333333] rounded-lg shadow-black/50 shadow-md hover:bg-[#444444] transition-colors ease-in">
-              <img src="../assets/4ESPORT_hoodie_white.webp" alt="" loading="lazy" decoding="async"
-                class="h-[140px] w-[90px] md:h-[243px] md:w-[225px] object-cover" />
-            </div>
-            <p class="text-white/70 text-center mt-2">Pull v3 (Blanc) | 40€</p>
-          </a>
-          <a class="my-auto" href="https://eliminate.fr/produit/4esport-hoodie-brode-2022/" target="_blank">
-            <div
-              class="p-2 bg-[#333333] rounded-lg shadow-black/50 shadow-md hover:bg-[#444444] transition-colors ease-in">
-              <img src="../assets/unknown.webp" alt="" loading="lazy" decoding="async"
-                class="h-[140px] w-[90px] md:h-[270px] md:w-[250px] object-cover" />
-            </div>
-            <p class="text-white/70 text-center mt-2">Pull v1 | 40€</p>
-          </a>
-          <a class="z-10 md:-mx-2" href="https://eliminate.fr/produit/4esport-jersey-2022/" target="_blank">
-            <div
-              class="p-2 bg-[#333333] rounded-lg shadow-black/50 shadow-md hover:bg-[#444444] transition-colors ease-in"
-              @mouseenter="display = false" @mouseleave="display = true">
-              <img v-if="display" src="../assets/Maillot_ORIGIN_fonce.webp" alt=""
-                class="h-[140px] w-[90px] sm:h-[220px] sm:w-[150px] md:h-[320px] md:w-[250px] object-cover scale-[1.2]" />
-              <img v-else src="../assets/Maillot_ORIGIN_MODELISATION_3D.webp" alt=""
-                class="h-[140px] w-[90px] sm:h-[220px] sm:w-[150px] md:h-[320px] md:w-[250px] object-cover scale-[1.2]" />
-              <div />
-            </div>
-            <p class="text-white/70 text-center mt-2">Maillot | 35€</p>
-          </a>
-          <a class="my-auto" href="https://eliminate.fr/produit/4esport-hoodie-brode-2023/" target="_blank">
-            <div
-              class="p-2 bg-[#333333] rounded-lg shadow-black/50 shadow-md hover:bg-[#444444] transition-colors ease-in">
-              <img src="../assets/4ESPORT_hoodie_navy.webp" alt="" loading="lazy" decoding="async"
-                class="h-[140px] w-[90px] md:h-[270px] md:w-[250px] object-cover" />
-            </div>
-            <p class="text-white/70 text-center mt-2">Pull v2 | 40€</p>
-          </a>
-          <a class="my-auto" href="https://eliminate.fr/produit/4esport-hoodie-brode-2024/" target="_blank">
-            <div
-              class="p-2 bg-[#333333] rounded-lg shadow-black/50 shadow-md hover:bg-[#444444] transition-colors ease-in">
-              <img src="../assets/4ESPORT_hoodie_pink.webp" alt="" loading="lazy" decoding="async"
-                class="h-[140px] w-[90px] md:h-[243px] md:w-[225px] object-cover" />
-            </div>
-            <p class="text-white/70 text-center mt-2">Pull v3 (Rose) | 40€</p>
-          </a>
+        <div v-reveal="100" class="relative mt-8">
+          <!-- Flèches : uniquement au pointeur fin, le tactile fait glisser -->
+          <button v-if="canScrollLeft" type="button" aria-label="Produits précédents"
+            class="shop-arrow left-0 -translate-x-1/2" @click="scrollShop(-1)">
+            <svg viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12.707 4.293a1 1 0 010 1.414L8.414 10l4.293 4.293a1 1 0 01-1.414 1.414l-5-5a1 1 0 010-1.414l5-5a1 1 0 011.414 0z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
+          <button v-if="canScrollRight" type="button" aria-label="Produits suivants"
+            class="shop-arrow right-0 translate-x-1/2" @click="scrollShop(1)">
+            <svg viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M7.293 15.707a1 1 0 010-1.414L11.586 10 7.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
+
+          <div ref="shopTrack" class="shop-track flex gap-3 overflow-x-auto snap-x snap-mandatory pb-3"
+            @scroll.passive="updateShopArrows">
+            <a v-for="item in boutique" :key="item.url" :href="item.url" target="_blank" rel="noopener"
+              class="shop-item group flex shrink-0 snap-start flex-col rounded-lg border border-white/10 bg-white/[0.04] p-2 transition-all duration-300 hover:-translate-y-1 hover:border-[#15c584]/40 hover:bg-white/[0.07] w-[150px] sm:w-[175px] md:w-[195px]">
+              <div class="relative overflow-hidden rounded-md bg-[#2a2a2a]">
+                <span v-if="item.nouveau"
+                  class="absolute left-1.5 top-1.5 z-10 rounded-full bg-[#15c584] px-1.5 py-[1px] text-[9px] font-bold uppercase tracking-wide text-[#0b1120]">
+                  Nouveau
+                </span>
+                <img :src="item.img" :alt="item.name" loading="lazy" decoding="async"
+                  class="shop-img aspect-[3/4] w-full object-cover object-top" />
+              </div>
+              <p class="mt-2 text-xs sm:text-sm font-semibold leading-tight">{{ item.name }}</p>
+              <p class="mt-0.5 text-xs font-semibold text-[#15c584]">{{ item.price }}</p>
+            </a>
+          </div>
         </div>
       </article>
     </div>
@@ -302,6 +373,48 @@ const tournoiDate = "2026-09-12T20:00:00+02:00";
   }
 }
 
+/* Carrousel boutique */
+.shop-track {
+  scrollbar-width: thin;
+  scroll-padding-left: 2px;
+}
+
+.shop-arrow {
+  position: absolute;
+  top: 42%;
+  z-index: 20;
+  display: none;
+  padding: 0.5rem;
+  border: 1px solid rgb(255 255 255 / 0.15);
+  border-radius: 9999px;
+  background: rgb(19 21 41 / 0.9);
+  color: rgb(255 255 255 / 0.8);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.5);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.shop-arrow:hover {
+  background: #15c584;
+  color: #0b1120;
+}
+
+/* Sur écran tactile on fait glisser au doigt : les flèches n'ont pas lieu d'être. */
+@media (hover: hover) and (pointer: fine) {
+  .shop-arrow {
+    display: block;
+  }
+}
+
+/* Vignettes boutique */
+.shop-img {
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.shop-item:hover .shop-img {
+  transform: scale(1.06);
+}
+
 /* Tuiles de pôles */
 .pole-frame {
   height: 100%;
@@ -338,7 +451,8 @@ const tournoiDate = "2026-09-12T20:00:00+02:00";
 
   .pole-frame,
   .pole-img,
-  .pole-name {
+  .pole-name,
+  .shop-img {
     transition: none;
   }
 }
