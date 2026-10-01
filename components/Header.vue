@@ -2,17 +2,6 @@
 <template>
   <div class="fixed top-0 left-0 right-0 z-10">
     <header class="w-full border-b-[1px] border-white/20 backdrop-blur-[2px] text-white bg-[#1C1C1C]/70">
-      <a href="https://discord.com/channels/252550911187091457/367444313241550849/1545026067914297414" target="_blank"
-        class="banner group w-full flex items-center justify-center gap-2 sm:gap-3 py-1.5 px-3 text-white/90 hover:text-white transition-colors">
-        <span
-          class="shrink-0 rounded-full bg-white/20 px-2 py-[2px] text-[10px] sm:text-xs font-bold uppercase tracking-wider">
-          Nouveau
-        </span>
-        <span class="text-center text-sm sm:text-lg md:text-xl font-bold">
-          🏆 Le Grand Tournoi de Rentrée 26-27 arrive — inscris-toi !
-        </span>
-        <span class="hidden sm:inline-block font-bold transition-transform group-hover:translate-x-1">→</span>
-      </a>
       <div class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1500px] m-auto flex justify-between items-center py-1 md:py-2">
         <div class="items-center hidden md:flex">
           <div class="flex items-center">
@@ -43,32 +32,10 @@
       </div>
     </header>
   </div>
-  <div class="h-[70px]"></div>
+  <div class="h-[30px] md:h-[54px]"></div>
 </template>
 
 <style scoped>
-.banner {
-  background: linear-gradient(90deg, #8215c5, #2c15c5, #15c584, #2c15c5, #8215c5);
-  background-size: 300% 100%;
-  animation: banner-pan 12s linear infinite;
-}
-
-@keyframes banner-pan {
-  from {
-    background-position: 0% 50%;
-  }
-
-  to {
-    background-position: 300% 50%;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .banner {
-    animation: none;
-  }
-}
-
 .link-underline {
   border-bottom-width: 0;
   background-image: linear-gradient(transparent, transparent),

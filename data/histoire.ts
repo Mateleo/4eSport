@@ -76,7 +76,7 @@ export const timeline: Year[] = [
     events: ["Une variante du pull est proposée."],
   },
 
-  // ⚠️ À COMPLÉTER — années scaffoldées, invisibles tant que `events` est vide.
+  // ⚠️ À COMPLÉTER : années scaffoldées, invisibles tant que `events` est vide.
   { year: 2024, events: [] },
   { year: 2025, events: [] },
   { year: 2026, events: [] },

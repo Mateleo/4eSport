@@ -103,7 +103,7 @@ export const teams: Team[] = [
         name: "Valentin Lebras",
         role: "Trésorier",
         description:
-          "Arrivée en L1 en 2022, avec l'envie de s'investir tout de suite. En moins d'un an, monte le pôle Splatoon à partir de rien — juste en allant chercher des joueurs motivés. La démonstration que n'importe qui peut ouvrir un pôle. Passe ensuite de l'autre côté du bureau : vice-trésorier en 2024, trésorier de l'association depuis 2025.",
+          "Arrivée en L1 en 2022, avec l'envie de s'investir tout de suite. En moins d'un an, monte le pôle Splatoon à partir de rien, juste en allant chercher des joueurs motivés. La démonstration que n'importe qui peut ouvrir un pôle. Passe ensuite de l'autre côté du bureau : vice-trésorier en 2024, trésorier de l'association depuis 2025.",
         parcours: [
           { period: "2022", label: "Arrivée dans l'asso, en L1", badge: "membre" },
           { period: "2022 → 2024", label: "Responsable Splatoon", badge: "pole" },
@@ -117,7 +117,7 @@ export const teams: Team[] = [
           },
           {
             name: "LE4",
-            text: "Ligue ouverte à tous les niveaux, co-organisée. Casts en stream, visuels pro chaque semaine et de vraies rivalités entre équipes — sans doute le plus beau projet de ces dernières années.",
+            text: "Ligue ouverte à tous les niveaux, co-organisée. Casts en stream, visuels pro chaque semaine et de vraies rivalités entre équipes, sans doute le plus beau projet de ces dernières années.",
           },
         ],
       },
@@ -164,7 +164,7 @@ export const teams: Team[] = [
         role: "Responsable Communication",
         photo: "vxwed.webp",
         description:
-          "Arrivée en 2023 avec une mission précise : réanimer un compte Instagram à l'abandon. Remet en route les posts tournois et events, puis passe responsable communication et entre au BE. Le poste, c'est surtout le lien direct avec les étudiants — leurs questions, leurs réactions en live pendant la Grosse Ligue, et l'évolution de l'asso vue de l'extérieur.",
+          "Arrivée en 2023 avec une mission précise : réanimer un compte Instagram à l'abandon. Remet en route les posts tournois et events, puis passe responsable communication et entre au BE. Le poste, c'est surtout le lien direct avec les étudiants : leurs questions, leurs réactions en live pendant la Grosse Ligue, et l'évolution de l'asso vue de l'extérieur.",
         parcours: [
           { period: "2023", label: "Responsable Instagram", badge: "respo" },
           { period: "Depuis 2025", label: "Responsable Communication, entrée au BE", badge: "be", highlight: true },

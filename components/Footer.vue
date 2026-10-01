@@ -6,7 +6,7 @@
       <div class="flex">
         <a
           class="h-[16px] aspect-square mr-3"
-          href="https://discord.gg/qEHEMyadrr"
+          href="https://discord.gg/4eSport"
           target="_blank"
         >
           <img src="../assets/5761437_discord_logo_icon.svg" />
@@ -35,7 +35,7 @@
       </div>
       <div>
         <h4 class="text-[11px] text-white/50 hidden sm:block">
-            Made by 🌌 <a href="https://mateo-siam.com" class="underline" target="_blank">Mateleo</a> for 4eSport | <a href="mailto:contact@4eSport.fr">contact@4eSport.fr</a>
+            Made by 🌌 <a href="https://mateo-siam.com" class="underline" target="_blank">Mateleo</a> updated by 🐼 <span class="underline">P4ND4</span> | <a href="mailto:contact@4eSport.fr">contact@4eSport.fr</a>
         </h4>
       </div>
       <div>

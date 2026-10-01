@@ -104,23 +104,13 @@ onMounted(() => {
   window.addEventListener("resize", updateShopArrows);
 });
 onBeforeUnmount(() => window.removeEventListener("resize", updateShopArrows));
-
-// Grand Tournoi de Rentrée 26-27 : 12 septembre 2026 à 20h.
-const tournoiDate = "2026-09-12T20:00:00+02:00";
 </script>
 
 <template>
   <main class="relative sm:mt-[80px]">
-    <!-- Halos décoratifs derrière le hero -->
-    <div class="pointer-events-none absolute inset-x-0 top-[-160px] h-[520px] overflow-hidden -z-10" aria-hidden="true">
-      <div class="glow glow-a absolute left-[-10%] top-0 h-[420px] w-[420px] rounded-full bg-[#2c15c5]/40 blur-[110px]">
-      </div>
-      <div
-        class="glow glow-b absolute right-[-5%] top-[60px] h-[380px] w-[380px] rounded-full bg-[#15c584]/25 blur-[110px]">
-      </div>
-      <div
-        class="glow glow-c absolute left-1/2 top-[120px] h-[320px] w-[320px] -translate-x-1/2 rounded-full bg-[#8215c5]/30 blur-[120px]">
-      </div>
+    <!-- Fond du hero : dégradés radiaux + grille, fondus par masque (aucun bord net) -->
+    <div class="hero-bg pointer-events-none absolute inset-x-0 top-[-160px] h-[760px] -z-10" aria-hidden="true">
+      <div class="hero-grid absolute inset-0"></div>
     </div>
     <div class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1500px] m-auto">
       <h1 class="font-semibold text-3xl w-full text-center sm:hidden block">
@@ -133,7 +123,7 @@ const tournoiDate = "2026-09-12T20:00:00+02:00";
               <h1 class="text-xl md:text-3xl lg:text-4xl font-semibold">
                 L'association 100% en ligne.
               </h1>
-              <h1 class="textxl md:text-3xl lg:text-4xl font-semibold text-[#15c584]">
+              <h1 class="hero-accent text-xl md:text-3xl lg:text-4xl font-semibold">
                 Pour tous, par tous.
               </h1>
               <p class="mt-3 text-sm md:text-lg lg:text-xl text-white/70 text-justify md:text-left">
@@ -156,14 +146,10 @@ const tournoiDate = "2026-09-12T20:00:00+02:00";
             </div>
           </div>
           <div v-reveal="120">
-            <img src="../assets/ESL.webp" alt="" loading="eager" decoding="async"
-              class="shadow-black/30 shadow-lg sm:rounded-md rounded-sm sm:max-h-[400px] m-auto h-[200px] sm:h-auto w-full object-cover" />
+            <HeroSlideshow />
           </div>
         </div>
       </main>
-      <section v-reveal class="mt-12 md:mt-16">
-        <Countdown :target="tournoiDate" label="Grand Tournoi de Rentrée 26-27" />
-      </section>
       <div class="lg:mt-40 mt-10 md:mt-20">
         <h2 v-reveal class="font-semibold text-2xl sm:text-3xl md:text-4xl mb-5">
           Nos forces
@@ -282,7 +268,6 @@ const tournoiDate = "2026-09-12T20:00:00+02:00";
           </div>
         </div>
       </article>
-      <TwitchEmbed />
       <article class="lg:mt-40 mt-10 md:mt-20">
         <div v-reveal class="flex flex-col text-center mb-5">
           <h1 class="text-lg md:text-3xl lg:text-4xl font-semibold">
@@ -315,7 +300,7 @@ const tournoiDate = "2026-09-12T20:00:00+02:00";
             </svg>
           </button>
 
-          <div ref="shopTrack" class="shop-track flex gap-3 overflow-x-auto snap-x snap-mandatory pb-3"
+          <div ref="shopTrack" class="shop-track -mt-2 flex gap-3 overflow-x-auto snap-x snap-mandatory pb-3 pt-2"
             @scroll.passive="updateShopArrows">
             <a v-for="item in boutique" :key="item.url" :href="item.url" target="_blank" rel="noopener"
               class="shop-item group flex shrink-0 snap-start flex-col rounded-lg border border-white/10 bg-white/[0.04] p-2 transition-all duration-300 hover:-translate-y-1 hover:border-[#15c584]/40 hover:bg-white/[0.07] w-[150px] sm:w-[175px] md:w-[195px]">
@@ -338,41 +323,6 @@ const tournoiDate = "2026-09-12T20:00:00+02:00";
 </template>
 
 <style scoped>
-/* Halos du hero : dérive lente pour éviter un fond figé */
-.glow {
-  will-change: transform;
-}
-
-.glow-a {
-  animation: drift-a 18s ease-in-out infinite alternate;
-}
-
-.glow-b {
-  animation: drift-b 22s ease-in-out infinite alternate;
-}
-
-.glow-c {
-  animation: drift-c 26s ease-in-out infinite alternate;
-}
-
-@keyframes drift-a {
-  to {
-    transform: translate3d(60px, 40px, 0) scale(1.15);
-  }
-}
-
-@keyframes drift-b {
-  to {
-    transform: translate3d(-50px, 50px, 0) scale(1.1);
-  }
-}
-
-@keyframes drift-c {
-  to {
-    transform: translate3d(-50%, -40px, 0) scale(1.2);
-  }
-}
-
 /* Carrousel boutique */
 .shop-track {
   scrollbar-width: thin;
@@ -445,10 +395,6 @@ const tournoiDate = "2026-09-12T20:00:00+02:00";
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .glow {
-    animation: none;
-  }
-
   .pole-frame,
   .pole-img,
   .pole-name,
