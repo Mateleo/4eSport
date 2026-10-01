@@ -5,6 +5,17 @@ let display = ref(true);
 <template>
     <main class="w-[95%] md:w-[90%] lg:w-[80%] m-auto sm:mt-[70px] max-w-[1000px]">
         <div class="flex flex-col text-center">
+            <div class="flex justify-center mb-4">
+                <span
+                    class="inline-flex items-center gap-2 rounded-full border border-[#15c584]/40 bg-[#15c584]/10 px-3 py-1 text-xs md:text-sm font-semibold text-[#15c584]">
+                    <span class="relative flex h-2 w-2">
+                        <span
+                            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#15c584] opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-[#15c584]"></span>
+                    </span>
+                    Cotisations 2026-2027 ouvertes
+                </span>
+            </div>
             <h1 class="text-2xl md:text-5xl font-semibold">La cotisation</h1>
             <h2 class="text-base md:text-2xl font-semibold text-[#15c584]">
                 Le meilleur moyen de s'intégrer

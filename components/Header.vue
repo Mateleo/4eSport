@@ -2,10 +2,6 @@
 <template>
   <div class="fixed top-0 left-0 right-0 z-10">
     <header class="w-full border-b-[1px] border-white/20 backdrop-blur-[2px] text-white bg-[#1C1C1C]/70">
-      <a href="https://discord.com/channels/252550911187091457/367444313241550849/1546272768419565628" target="_blank"
-        class="text-center w-full bg-green-600 font-bold text-xl flex justify-center py-1 text-white/90 hover:text-white transition-all ease-in-out">
-        Rejoins le Discord de 4eSport et inscris-toi au tournoi de rentrée ! 300€ de cash prize au total à gagner !
-      </a>
       <div class="w-[95%] md:w-[90%] lg:w-[80%] max-w-[1500px] m-auto flex justify-between items-center py-1 md:py-2">
         <div class="items-center hidden md:flex">
           <div class="flex items-center">
@@ -20,6 +16,9 @@
           <NuxtLink to="/projets" class="link-underline hover:text-[#15c584] transition-all ease-in-out delay-75">
             Projets
           </NuxtLink>
+          <NuxtLink to="/equipe" class="link-underline hover:text-[#15c584] transition-all ease-in-out delay-75">
+            <span class="hidden md:inline-block">Notre</span> Équipe
+          </NuxtLink>
           <NuxtLink to="/histoire" class="link-underline hover:text-[#15c584] transition-all ease-in-out delay-75">
             <span class="hidden md:inline-block">Notre</span> Histoire
           </NuxtLink>
@@ -33,7 +32,7 @@
       </div>
     </header>
   </div>
-  <div class="h-[70px]"></div>
+  <div class="h-[30px] md:h-[54px]"></div>
 </template>
 
 <style scoped>

@@ -6,7 +6,7 @@
       <div class="flex">
         <a
           class="h-[16px] aspect-square mr-3"
-          href="https://discord.gg/qEHEMyadrr"
+          href="https://discord.gg/4eSport"
           target="_blank"
         >
           <img src="../assets/5761437_discord_logo_icon.svg" />
@@ -39,7 +39,7 @@
         </h4>
       </div>
       <div>
-        <h4 class="text-xs text-white/50">4eSport - 2024</h4>
+        <h4 class="text-xs text-white/50">4eSport - 2026</h4>
       </div>
     </div>
   </footer>
